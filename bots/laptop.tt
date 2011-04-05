@@ -1,0 +1,29 @@
+#CONFIG           {SPEEDWALK}             {OFF}
+#CONFIG           {VERBATIM}              {OFF}
+#CONFIG           {REPEAT ENTER}          {OFF}
+#CONFIG           {ECHO COMMAND}          {ON}
+#CONFIG           {VERBOSE}               {OFF}
+#CONFIG           {WORDWRAP}              {ON}
+#CONFIG           {LOG}                   {RAW}
+#CONFIG           {BUFFER SIZE}           {5000}
+#CONFIG           {SCROLL LOCK}           {ON}
+#CONFIG           {HISTORY SIZE}          {2500}
+#CONFIG           {CONNECT RETRY}         {60}
+#CONFIG           {PACKET PATCH}          {0}
+#CONFIG           {TINTIN CHAR}           {#}
+#CONFIG           {VERBATIM CHAR}         {\}
+#CONFIG           {REPEAT CHAR}           {!}
+#MACRO            {\eOA}                  {north}
+#MACRO            {\eOB}                  {south}
+#MACRO            {\eOC}                  {east}
+#MACRO            {\eOD}                  {west}
+#PATHDIR          {n}                     {s}                          {1}
+#PATHDIR          {e}                     {w}                          {2}
+#PATHDIR          {ne}                    {sw}                         {3}
+#PATHDIR          {s}                     {n}                          {4}
+#PATHDIR          {se}                    {nw}                         {6}
+#PATHDIR          {w}                     {e}                          {8}
+#PATHDIR          {nw}                    {se}                         {9}
+#PATHDIR          {sw}                    {ne}                         {12}
+#PATHDIR          {u}                     {d}                          {16}
+#PATHDIR          {d}                     {u}                          {32}

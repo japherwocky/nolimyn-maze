@@ -1,0 +1,49 @@
+body {
+  background: white;
+  margin: 10px;
+  text-align:center;
+}
+
+body,
+input {
+  font-family: sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+td {
+  border: 0;
+  padding: 0;
+}
+
+#body {
+  width: 800px;
+  margin:auto;
+}
+
+#input {
+  margin-top: 0.5em;
+}
+#inbox {
+  height: 420px;
+  margin-top: 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align:justify;
+}
+
+#inbox .message {
+  padding-top: 0.25em;
+}
+
+#nav {
+  float: left;
+  z-index: 99;
+}
+
+pre { margin: 0; }

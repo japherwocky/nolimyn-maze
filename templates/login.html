@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:py="http://genshi.edgewall.org/">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Welcome to Nolimyn</title>
+<style type="text/css">
+body { text-align:center; }
+
+#container { 
+	width:700px; 
+	height:500px; 
+	margin:auto; 
+
+}
+
+img {float:right;}
+form {float:left;margin-top:200px;}
+form.input		{ width:100px; padding:3px;margin:3px;}
+</style>
+
+</head>
+
+<body>
+<div id="container">
+
+<div id="errormsg" py:if="errormsg">
+${errormsg}
+</div>
+
+
+<form method="post" action="">
+<input name="login" value="NAME" onfocus="if(this.value=='NAME')this.value='';" /><br />
+<input name="password" type="password" value="PASSWORD" onfocus="if(this.value=='PASSWORD')this.value='';" /><br />
+<input type="submit" value="PLAY" />
+<input type="hidden" value="${xsrf}" name="_xsrf" />
+</form>
+
+<img src="/static/nymlion3.jpg" /> <br />
+
+</div>
+</body>
+
+</html>
+
