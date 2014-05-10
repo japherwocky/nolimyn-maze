@@ -1,99 +1,14 @@
-<!DOCTYPE html>  
-  
-<html>  
-    <head>  
-        <title>Canvas from scratch</title>  
-        <meta charset="utf-8">  
-  
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>  
-        <script src="http://localhost:8888/static/jquery.min.js"></script>  
-  
-        <script>  
-            $(document).ready(function() {  
-                var canvas = document.getElementById("myCanvas");  
-                window.canvas = canvas
-                var ctx = canvas.getContext("2d");  
-                window.ctx = ctx;
+{% extends base.html %}
 
-                listen();
-                // color();
-                setInterval(fastcolor, 200);
+{% block css_includes %}
+{% end %}
 
-            });  
+{% block content %}
 
-var click1 = false
-var click2 = false
+<div class="container fill">
 
-
-function listen () {
-
-$("#myCanvas").mousemove(function(e){
-    // console.log('mouse offset:', e.offsetX, e.offsetY);
-    });
-
-$("#myCanvas").click( function(e){
-    click1 = click2;
-    click2 = {'x':e.offsetX, 'y':e.offsetY};
-    console.log(click1, click2);
-
-    ctx.beginPath();
-    ctx.moveTo(click1.x, click1.y);
-    ctx.lineTo(click2.x, click2.y);
-    ctx.stroke();
-
-    });
-}
-
-
-function fastcolor() {
-    var cw = canvas.width;
-    var ch = canvas.height;
-
-    data = new Array();
-
-    for (var i = 0; i < data.length; i += 4) {
-        data[i] = Math.floor(Math.random() * 256); 
-        data[i+1] = Math.floor(Math.random() * 256); 
-        data[i+2] = Math.floor(Math.random() * 256); 
-        data[i+3] = 256 
-        }
-
-    var t0 = new Date().getTime();
-    var imagedata = ctx.getImageData(0, 0, cw, ch);
-    imagedata.data = data;
-    console.log( new Date().getTime() - t0);
-
-    ctx.putImageData(imagedata, 0,0);
-
-/* or something like for 'sprites'
-    for (var y = 0; y < sourceHeight; y++) {
-        // loop through each column
-        for (var x = 0; x < sourceWidth; x++) {
-            var red = data[((sourceWidth * y) + x) * 4];
-            var green = data[((sourceWidth * y) + x) * 4 + 1];
-            var blue = data[((sourceWidth * y) + x) * 4 + 2];
-        }
-    }
-*/
-
-    }
-
-        </script>  
-    </head>  
- 
-    <style type="text/css">
-        #myCanvas { border:2px solid blue;}
-    </style>
- 
-    <body>  
-
-        <canvas id="myCanvas" width="500" height="300">  
-            <!-- Insert fallback content here -->  
-        </canvas>  
-
-    <ul id="buttons">
-        <li><button><a href="#fastcolor">fastcolor</a></button></li>
-    </ul>
-        
-    </body>
-</html>  
+    <div id="board">
+    
+    </div>
+</div>
+{% end %}

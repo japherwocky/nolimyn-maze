@@ -18,6 +18,9 @@ from M import M, db, Players
 from commands import parse
 
 class Application(tornado.web.Application):
+
+    logins = {}
+
     def __init__(self):
 
         """
@@ -30,9 +33,8 @@ class Application(tornado.web.Application):
             (r"/recv", Recv), #GET: browser recvs updates  POST: other servers communicate?!
             (r"/send", Send), #browser sends commands
             #maybe sendbot
-            (r"/logout", AuthLogoutHandler),
-            (r"/login", LoginHandler),
-            (r"/jquery/(.*)", tornado.web.StaticFileHandler, {"path": "templates/jquery"}),
+            (r"/logout/?", AuthLogoutHandler),
+            (r"/login/?", LoginHandler),
         ]
 
         settings = dict(
@@ -95,7 +97,7 @@ class Canvas( BaseHandler):
 
 class Recv( BaseHandler):
     """
-    Client reads this to get new rendering instructions
+    Client subscribes to this to get new rendering instructions
     maybe /"events"
     """
 
@@ -135,15 +137,14 @@ class Send( BaseHandler):
         parse( txtin.lower(), self.user)
 
 
-
-
-import md5
+from hashlib import sha256
 class LoginHandler(BaseHandler):
-    magic = 'ef47862869f311de943f001e4c8e3a11' # uh.. nothing to see here
+    # pull this out of a BASH env or something
+    magic = 'ef47862869f311de943f001e4c8e3a11'
 
     def get(self, errormsg=None):
         #send the generic login screen
-        self.render( 'login.html', errormsg=errormsg, xsrf=self.xsrf_token)
+        self.render('login.html', errormsg=errormsg, xsrf=self.xsrf_token)
 
     def post(self):
         login = self.get_argument("login", None)
@@ -154,7 +155,7 @@ class LoginHandler(BaseHandler):
             return self.get( errormsg)
 
         #make hash to compare
-        password = md5.new(password+self.magic).hexdigest()
+        password = sha256(password+self.magic).hexdigest()
         user = M.noldb.players.find_one( {'login':login})
 
         if user:
@@ -164,7 +165,8 @@ class LoginHandler(BaseHandler):
                 return self.get( "password denied")
 
         else:
-            #log new player
+            #create new player someday
+            """
             M.noldb.players.insert( {
                 'login':login, 
                 'passhash':password, 
@@ -172,7 +174,9 @@ class LoginHandler(BaseHandler):
                 'inventory': [],
                 'equipped': {},
                 })
-            self._on_auth( login)
+            """
+
+            self._on_auth(login)
 
     def _on_auth(self, user):
         self.set_secure_cookie("user", tornado.escape.json_encode(user))
