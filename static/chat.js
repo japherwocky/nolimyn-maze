@@ -34,10 +34,12 @@ $(document).ready(function() {
 		// annoying, up and down trigger firefox features
 
 		case 37:
-			document.inputform.message.value = 'west'
+            $( '#input').val( 'west')
+			// document.inputform.message.value = 'west'
 			newMessage( $('#messageform'));
 			return false;
 		case 38:
+            $( '#input').val( 'north')
 			document.inputform.message.value = 'north'
 			newMessage( $('#messageform'));
 			return false;
@@ -80,6 +82,7 @@ jQuery.postJSON = function(url, args, callback) {
     args._xsrf = getCookie("_xsrf");
     $.ajax({url: url, data: $.param(args), dataType: "text", type: "POST",
 	    success: function(response) {
+        console.log( response);
 	if (callback) callback(eval("(" + response + ")"));
     }, error: function(response) {
 	console.log("ERROR:", response)
@@ -144,7 +147,7 @@ var updater = {
 	updater.cursor = response.cursor;
 	var messages = response.messages;
 	updater.cursor = messages[messages.length - 1].id;
-	// console.log(messages.length, "new messages, cursor:", updater.cursor);
+	console.log(messages.length, "new messages, cursor:", updater.cursor);
 	for (var i = 0; i < messages.length; i++) {
 	    updater.showMessage(messages[i]);
 	}
@@ -162,7 +165,7 @@ var updater = {
 
 		else {
 			$("#inbox").append(node);
-			$("body").scrollTo('100%',{'axis':'y'});
+			$("#inbox").scrollTo('100%',{'axis':'y'});
 			}
 	// node.slideDown();
     }

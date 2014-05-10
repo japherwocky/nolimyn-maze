@@ -7,36 +7,46 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
-import os.path
-import uuid, sqlite3
+
+import json, os
 
 from tornado.options import define, options
 define("port", default=8888, help="run on the given port", type=int)
 
-import pymongo
-M = pymongo.Connection()
+
+from M import M, db, Players
+from commands import parse
 
 class Application(tornado.web.Application):
-
     def __init__(self):
 
+        """
+        Basically, the client POSTs commands to Send, and gets rendering instructions
+        via /recv via comet style polling
+        """
+
         handlers = [
-            (r"/", MainHandler),
+            (r"/", Canvas), #load the initial template
+            (r"/recv", Recv), #GET: browser recvs updates  POST: other servers communicate?!
+            (r"/send", Send), #browser sends commands
+            #maybe sendbot
             (r"/logout", AuthLogoutHandler),
             (r"/login", LoginHandler),
-            (r"/a/message/new", MessageNewHandler),
-            (r"/a/message/updates", MessageUpdatesHandler),
+            (r"/jquery/(.*)", tornado.web.StaticFileHandler, {"path": "templates/jquery"}),
         ]
+
         settings = dict(
             cookie_secret="43oETzKXQAGaYdkL5gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
             login_url="/login",
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
             static_path=os.path.join(os.path.dirname(__file__), "static"),
-            xsrf_cookies=True,
+            xsrf_cookies=False,
+            debug=True,
         )
         tornado.web.Application.__init__(self, handlers, **settings)
 
-
+from tornado.template import Loader
+Loader = Loader('templates')
 class BaseHandler(tornado.web.RequestHandler):
     
     def get_current_user(self):
@@ -48,162 +58,92 @@ class BaseHandler(tornado.web.RequestHandler):
     @property
     def user(self): return self.get_current_user()
 
-    def render(self, template, **kwargs):
-        kwargs['xsrf'] = self.xsrf_token
+    def render( self, template, **kwargs):
         kwargs['user'] = self.user
-        kwargs['request'] = self.request
-        kwargs['title'] = B.book['title']
-        kwargs['author'] = B.book['author']
-        html = template.generate( **kwargs).render('html', doctype='html')
-        self.finish( html)
+        self.finish( self.render_string( template, **kwargs))
 
 
-from templates import Main
-from player import Player
-from time import time
-class MainHandler(BaseHandler):
 
+
+import board
+
+class Canvas( BaseHandler):
+    """
+    Load the template
+    """
     @tornado.web.authenticated
     def get(self):
 
-        if not self.user in MessageMixin.players:
-            player = MessageMixin.players[ self.user] = Player( self.user)
-            #scan Player.progress for the board/room to spawn them in
-
-            if not player.progress.keys():
-                player.progress = {0:0}
-            level = max(player.progress.keys())
-            if not B.boards[level].spawn( MessageMixin.players[self.user].Body, Room=B.boards[level].maze[ B.boards[level].solution[player.progress[level]]]):
-                B.boards[level].spawn( MessageMixin.players[self.user].Body)
-        else:
-            #already playing, but reloaded for whatever reason
-            player = MessageMixin.players[self.user]
-        tornado.ioloop.DelayedCallback( lambda: player.Parse('look'), 500).start()
-        tornado.ioloop.DelayedCallback( lambda: player.Parse('read'), 700).start()
-
-        #self.render( Main, messages=MessageMixin.players[ self.user].read())
-        self.render( Main)
-
-        user = M.noldb.players.find_one( {'login':self.user})
-        user['lastseen'] = time()
-        M.noldb.players.save( user)
-
-
-
-class MessageMixin(object):
-    """
-    Pass messages through here, expects something like:    
-        msg = {'id':str(uuid4()),'to':self.serverid, 'from':'', 'body':msg}
-        msg['html'] = '<div class="message" id="%s">%s</div>' % ( msg['id'], msg['body'])
-    """
-    players = {} #maps {'user':Player()}
-    
-    def wait_for_messages(self, callback, cursor=None):
-        #check if some are waiting?
-
-        Player = MessageMixin.players[ self.user]
-        if Player.waiter:
-            Player.read( Player.waiter)
-        else:
-            Player.read( callback)
-        if cursor:
-            pass
-            #import pdb;pdb.set_trace()
-        Player.read( callback)
-
-    @classmethod
-    def new_messages(self, user, messages):
-        #don't grok why, but calling self.user in here doesn't work
-        for cmd in messages:
-            try:
-                MessageMixin.players[ user].Parse( cmd)
-            except:
-                logging.error('Error parsing %s'%messages, exc_info=True)
-
-        
         """
-        cls = MessageMixin
-        logging.info("Sending new message to %r listeners", len(cls.waiters))
-        for callback in cls.waiters:
-            try:
-                callback(messages)
-            except:
-                logging.error("Error in waiter callback", exc_info=True)
-        cls.waiters = []
-        cls.cache.extend(messages)
-        if len(cls.cache) > self.cache_size:
-            cls.cache = cls.cache[-self.cache_size:]
+        if not self.user in Players:
+            Players[ self.user] = False
+            #spawn
+
+        P = M[db].players.find_one({'login':self.user}) 
+        cubes = board.rendercubes( P['x'], P['y'], P['z'])
+        players = board.renderplayers( P['x'], P['y'], P['z'])
+        health = board.renderhealth( self.user)
+        deck = board.renderdeck( self.user)
+        #add a list of javascript statements to Players[self.user]
+        Players[self.user] = cubes + players + health + deck
         """
 
-class MessageNewHandler(BaseHandler, MessageMixin):
-    @tornado.web.authenticated
-    def post(self):
-        cmd = self.get_argument("body")
-
-        if self.get_argument("next", None):
-            self.redirect(self.get_argument("next"))
-        else:
-            html = '<div class="message" id="%s" style="display:none"></div>'% str(uuid.uuid4())
-            self.write( {'html':html,})
-
-        self.new_messages(self.user, [cmd])
-        #self.finish()
+        self.render('canvas.html') 
 
 
-class MessageUpdatesHandler(BaseHandler, MessageMixin):
+
+
+class Recv( BaseHandler):
+    """
+    Client reads this to get new rendering instructions
+    maybe /"events"
+    """
 
     @tornado.web.authenticated
     @tornado.web.asynchronous
-    def post(self):
-        #registers itself as a callback with MessageMixin.wait_for_messages
-        cursor = self.get_argument("cursor", None)
-        self.wait_for_messages(self.async_callback(self.on_new_messages),
-                               cursor=cursor)
+    def get(self):
+        #dev:
+        if self.user not in Players or not Players[self.user]:
+        #if not Players[self.user]:
+            #if no messages, set a callback
+            Players[self.user] = self.push
+        else:
+            try:
+                self.push( Players[self.user])
+            except:
+                raise
 
-    def on_new_messages(self, messages):
+    def push( self, messages):
         # Closed client connection
         if self.request.connection.stream.closed():
+            del Players[self.user]
             return
 
-        msgs = []
-        for msg in messages:
-            if msg.startswith('!@#'):
-                msgtype = 'board'
-                msg = msg[3:]
-            else:
-                msgtype = 'default'
-            #seems like the javascript only cares about the 'html'
-            message = {
-                "id": str(uuid.uuid4()),
-                "from": self.user,
-                "body": msg,
-                "type": type,
-                "html": '<div class="message" id="%s" >%s</div>'% (str(uuid.uuid4()), msg)
-            }
-            msgs.append( message)
+        Players[self.user] = False
 
-        """
-        if not self._finished:
-            self.finish(dict(messages=msgs)) #turns into a json dict
-
-        else:
-            print 'finished'
-            p = MessageMixin.players[ self.user]
-            for m in messages:
-                p.buffer.append( m)
-        """
-        self.finish(dict(messages=msgs)) #turns into a json dict
-        
+        self.finish( json.dumps(messages))
 
 
-from templates import Login
+class Send( BaseHandler):
+    """
+    client sending args to us
+    """
+
+    @tornado.web.authenticated
+    def post( self):
+        txtin = self.get_argument('input')
+        parse( txtin.lower(), self.user)
+
+
+
+
 import md5
 class LoginHandler(BaseHandler):
     magic = 'ef47862869f311de943f001e4c8e3a11' # uh.. nothing to see here
 
     def get(self, errormsg=None):
         #send the generic login screen
-        self.render( Login, errormsg=errormsg, xsrf=self.xsrf_token)
+        self.render( 'login.html', errormsg=errormsg, xsrf=self.xsrf_token)
 
     def post(self):
         login = self.get_argument("login", None)
@@ -225,7 +165,13 @@ class LoginHandler(BaseHandler):
 
         else:
             #log new player
-            M.noldb.players.insert( {'login':login, 'passhash':password})
+            M.noldb.players.insert( {
+                'login':login, 
+                'passhash':password, 
+                'x':0, 'y':0, 'z':1,
+                'inventory': [],
+                'equipped': {},
+                })
             self._on_auth( login)
 
     def _on_auth(self, user):
@@ -238,18 +184,8 @@ class AuthLogoutHandler(BaseHandler):
         self.clear_cookie("user")
         self.write("You are now logged out")
 
-B = True
 
 def main():
-
-
-    #load the levels:
-    from book import Book
-    global B
-    B = Book()
-    Board = B.boards[0]
-
-
     tornado.options.parse_command_line()
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(options.port)
