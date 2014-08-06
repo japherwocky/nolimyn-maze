@@ -1,0 +1,212 @@
+Four classes, Fighter/Warrior, Thief/Assassin, Cleric/Shaman, and Mage/Wizard
+
+W:Bash, attacks to keep people in place, damage
+sense
+v.
+T:Dodge, skills to escape and steal, maledicts
+hide/disguise
+
+
+M:maledicts, damage, phase(to portals!)/teleport
+invisibility
+v.
+C:buffs, healing, word/gate
+reveal
+
+
+portals - like obelisks through the world, and at towns - anyone can
+use them, and mages can collect them, and go at will, with phase
+word of recall.. let you choose between last, and home.
+
+or, skill recall v. spell
+
+
+or, good aligned are warriors and evil are thieves?
+magic v. spiritual?
+get rid of CLASSES, and have a skill-tree ala diablo.
+
+or just tiered skills/spells.  Maybe you get.. 13?
+
+1
+1
+2
+3
+5
+--
+12
+
+
+POINTS, ok, forget this class shit.
+
+goodies add points to the collective total,
+evils add points to their individual total!
+
+"""
+<SimpleXML>
+have a MOTD and a README
+<idea>
+http://~(japherwocky)/MOTD
+</idea>
+
+<MOTD>
+
+</MOTD>
+
+<HTML></HTML>
+
+<CSS></CSS>
+
+<JAVASCRIPT></JAVASCRIPT>
+
+<WORLD>
+
+<AREA cast="">
+   <Room>
+      <Exit></Exit>
+   </Room>
+</AREA>
+
+</WORLD>
+
+</SimpleXML>
+"""
+
+"""
+Resource Mover -
+
+Population, Density.. explosion at xyz, security as a continuum.
+      Secure v Crime
+      Secure v Terror
+
+Criminals arise out of system, because of unemployment rate, etc.
+
+Citizens (maybe a city in the thousands) consume Food and Energy,
+but can also perform Jobs which transform Work and Resources (raws) into
+Food, Energy, and Products ->
+Products are bought and sold through currencies.
+
+Resources are generated at each (!City) Area per second, via an algorithm that checks the population density ..
+
+Resources Available = 1/Population
+
+Calculated like an interest rate, so letting nature last for a while gets the compound interest going.
+
+So Areas have to have a size(radius) and a center.  Transport then converts Energy into Distance.
+
+Food = Energy.. each Citizen/Robot consumes Energy.
+
+
+Algo for generating Cities - Robots each need one room in a House - on Roads in a ring pattern, with Buildings in the center, based on total population.
+
+Buildings:
+   SimCity shit,
+   Factories, where groups of Robots can perform Jobs
+
+Cost v. Efficiency - 
+(Intelligence)Work + Resources = Product|Energy|Food|Resources + (Efficiency)Waste
+
+Birth Rate -
+newPopulation = (oldPopulation/Intelligence)*Time
+
+Moving -
+
+$ = Product|Energy|Food|Resources
+
+To move $|Robot from xyz to xyz,
+
+cost$ = $|Robot * Distance ^ Security / (Intelligence + Efficiency)
+
+Fiddly Knobs - you can pay to tweak your (constants), Intelligence, Efficiency, etc.
+
+You are a Hero or whatever, controlling Lands (in sqft,center) and Minions (vectors?!)
+
+If size of planet were 5:
+              5 N
+              4
+              3
+              2
+              1  
+  W 5 4 3 2 1 0 1 2 3 4 5 E
+              1
+              2
+              3
+              4
+              5 S 
+
+You would have 100 Areas, Except - 5E = 5N, so
+5x,5x = 5N,5E or show Area as Quad:x,y  so x:5,5 = I:5,5
+
+So 97, but +21 because 0,0 and the axes are areas. (Areas are at whole numbers)
+
+Perhaps, for a world, Time = Size.  So biggest room is Time,Time.  Since every
+day the "x:max,max" room becomes "1|2|3|4:max,max" four rooms, claiming the Frontier can be done daily and then divided up to first, second thirdsies.
+
+Attacking players and Karma -
+Robbing and Pillaging is possible, but the only time Karma allows it is
+in the name of expanding territory.  You can claim adjacent lands, and go to war to settle boundaries
+
+So.. if all is claimed, you're born as a minion?!.
+"""
+
+"""
+So, each City can have X rooms, scaling the same as the world.
+
+Areas are different, it doesn't matter for them.  Each player is running a server, shared keys with our mother server.  How do you start?
+
+"""
+"""
+This is not client code, this is the initial.. boot this sucker up code.
+
+Classes should be Singular, like a god damn Platonian Ideal
+
+class Server:
+   def __init__(self):
+      self.id(1,'The Labyrinth Nolimyn')
+
+      #So, Others is networking - this server will track other Servers,
+      #and players which connect through it.
+      self.here = {}; self.there = {}
+      self.here( (1,'j') , Player('Japherwocky') ) #numbers for servers
+      self.there( ('somebody','nobody' ),'')       #strings for people
+
+   
+      #rooms are equiv. to ://addresses, maybe, and have Paths, for routing
+      #'sky' will represent the first room's connection to the internet
+      self.rooms = {1 , Room('Home')} 
+
+   #so 'here' is for objects it's tracking directly
+   def here(self,id,thing):
+      self.here[id[0]] = (id,thing)
+   #'there' would be for things on other servers.
+   def there(self,id,thing):
+      self.there[id[0]] = (id,thing)
+
+   def id(self,computerid,humanname):
+      self.id = (computerid,humanname)  # maybe all variables are machine/human
+
+#Each class from here out inherits the previous class - use the hierarchy
+#to subclass functions
+
+class Room:
+   def __init__(self,id,exits)
+      self.txt = ''    #for telnet
+      self.html = ''   #for web
+      self.css = ''
+
+      self.id(id)
+
+
+class Robot(Server):
+   def __init__(self,id):
+      self.id=(id[0],id[1])
+
+class Player(Server):
+   #security class!
+   def __init__(self):
+      self.id('japherwocky','japherwocky')
+
+   def byid(computerid)
+      return self.ents[computerid]
+
+
+the mother server connects with each "server", clients connect to each of those.

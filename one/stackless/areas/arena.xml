@@ -1,0 +1,10 @@
+<area id="arena" title="The testing Arena!">
+
+<room id="1" title="#DANGEROOM">
+    <descrip>
+Try 'spawn' to load a monster, and 'fight monster' to defeat it!
+    </descrip>
+    <exit dir="login" to="login" area="!login">Back to the login!</exit>
+</room>
+
+</area>

@@ -1,0 +1,4 @@
+[ 2390] Thastliagh: Wed Dec 19 17:47:10 2007: "examine" or "look" at item display's weight, material made of, and item type... CF-ish
+[ 2580] Bongo: Fri Dec 26 00:07:21 2008: sword
+[13551] Felentath: Fri Dec 26 12:46:12 2008: Each time you level, you get fully healed like in a certain other mud.. cough cough.
+[ 2538] Felentath: Fri Dec 26 15:04:55 2008: Give teleport a larger range.

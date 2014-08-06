@@ -1,0 +1,15 @@
+Tac | a stronghold patrolman | The Elven Stronghold | An Arched Hallway | Thu Dec 13 03:50:31 2007
+Gurd | the vampire, Shadar Lunn | Mausoleum | The workroom of Shadar Lunn | Thu Dec 13 15:46:37 2007
+Bjorn | the vampire, Shadar Lunn | Mausoleum | The workroom of Shadar Lunn | Sat Dec 15 07:37:48 2007
+Aldurin | the vampire, Shadar Lunn | Mausoleum | The workroom of Shadar Lunn | Sat Dec 15 07:39:51 2007
+Mimby | a celestial ambassador | The Elven Stronghold | The Center of the Grand Hall | Sun Dec 16 00:14:31 2007
+Calixan | a human ambassador | The Elven Stronghold | An Ornate Hallway | Sun Dec 16 02:53:52 2007
+Calixan | a halfling ambassador | The Elven Stronghold | A Wide Hallway | Sun Dec 16 03:08:46 2007
+Zod | the Elven Lord | The Elven Stronghold | The Bed Chambers of the Elven Lord | Sun Dec 16 21:36:20 2007
+Mimby | a human ambassador | The Elven Stronghold | A Guest Room | Tue Dec 18 00:00:35 2007
+Japherwocky | the vampire, Shadar Lunn | Mausoleum | The workroom of Shadar Lunn | Sat Dec 27 13:50:32 2008
+Racist | the Spectral Dragon | The Elven Stronghold | Before a Scorched Gate | Sat Dec 27 19:59:08 2008
+Deriveh | the great Dracolich | Mausoleum | The lair of the great Dracolich | Sun Dec 28 04:29:41 2008
+Azril | a sidhe ambassador | The Elven Stronghold | An Ornate Hallway | Sun Dec 28 19:28:48 2008
+Genofen | a human ambassador | The Elven Stronghold | A Large Apex | Mon Dec 29 00:41:50 2008
+Genofen | a celestial ambassador | The Elven Stronghold | A Guest Room | Mon Dec 29 15:05:13 2008

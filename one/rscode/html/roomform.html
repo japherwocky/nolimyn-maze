@@ -1,0 +1,112 @@
+<form id="room">
+
+
+Vnum&nbsp;<input name="vnum" type="text" value="">
+Name&nbsp;<input name="name" type="text" value="">
+
+Description<br>
+<textarea name="description" rows="13" cols="80"></textarea>
+
+Sector (Terrain)&nbsp;
+<select name="sector">
+	<option value="inside">Inside</option>
+	<option value="city">City</option>
+	<option value="field">Field</option>
+	<option value="forest">Forest</option>
+	<option value="hills">Hills</option>
+	<option value="mountains">Mountains</option>
+	<option value="water">Water</option>
+	<option value="unused">Unused</option>
+	<option value="underwater">Underwater</option>
+	<option value="air">Air</option>
+	<option value="desert">Desert</option>
+	<option value="road">Road</option>
+	<option value="burning">Burning</option>
+	<option value="trail">Trail</option>
+	<option value="swamp">Swamp</option>
+	<option value="park">Park</option>
+	<option value="vertical">Vertical</option>
+	<option value="ice">Ice</option>
+	<option value="snow">Snow</option>
+	<option value="cave">Cave</option>
+</select>
+
+Room Flags&nbsp;<br>
+<table name="roomflags">
+<tr>
+<td><input type="checkbox" value="none">&nbsp;None</td>
+<td><input type="checkbox" value="dark">&nbsp;Dark</td>
+<td><input type="checkbox" value="no_mob">&nbsp;No Mob</td>
+<td><input type="checkbox" value="indoors">&nbsp;Indoors</td>
+</tr><tr>
+<td><input type="checkbox" value="private">&nbsp;Private</td>
+<td><input type="checkbox" value="safe">&nbsp;Safe</td>
+<td><input type="checkbox" value="solitary">&nbsp;Solitary</td>
+<td><input type="checkbox" value="pet_shop">&nbsp;Pet Shop</td>
+</tr><tr>
+<td><input type="checkbox" value="norecall">&nbsp;Norecall</td>
+<td><input type="checkbox" value="imp_only">&nbsp;Imp Only</td>
+<td><input type="checkbox" value="god_only">&nbsp;God Only</td>
+<td><input type="checkbox" value="hero_only">&nbsp;Hero Only</td>
+</tr><tr>
+<td><input type="checkbox" value="newbie_only">&nbsp;Newbie Only</td>
+<td><input type="checkbox" value="law">&nbsp;Law</td>
+<td><input type="checkbox" value="nowhere">&nbsp;No Where</td>
+<td><input type="checkbox" value="no_gate">&nbsp;No Gate</td>
+</tr><tr>
+<td><input type="checkbox" value="silence">&nbsp;Silence</td>
+<td><input type="checkbox" value="no_summon_to">&nbsp;No Summon <b>To</b></td>
+<td><input type="checkbox" value="no_summon_from">&nbsp;No Summon <b>From</b></td>
+<td><input type="checkbox" value="no_alarm">&nbsp;No Alarm</td>
+</tr><tr>
+<td><input type="checkbox" value="force_duel">&nbsp;Force Duel</td>
+<td><input type="checkbox" value="no_magic">&nbsp;No Magic</td>
+<td><input type="checkbox" value="no_commune">&nbsp;No Commune</td>
+<td><input type="checkbox" value="explore">&nbsp;Explore</td>
+</tr>
+</table>
+
+<!-- exits get loaded in here as type="hidden"s 
+     from the form below, w/ some javascript <3
+-->
+
+</form>
+
+<form name="exit">
+Direction&nbsp;
+<select>
+	<option value="North">North</option>
+	<option value="East">East</option>
+	<option value="South">South</option>
+	<option value="West">West</option>
+	<option value="Up">Up</option>
+	<option value="Down">Down</option>
+</select><br>
+
+To Vnum&nbsp;<input name="vnum" type="text"><br>
+Key Vnum&nbsp;<input name="key" type="text" value="0"><br>
+Extra Keywords&nbsp;<input name="keywords" type="text"><br>
+Description&nbsp;<input name="description" type="text"><br>
+
+<table name="exitflags">
+<tr>
+	<td><input type="checkbox" value="A">&nbsp;Is Door</td>
+	<td><input type="checkbox" value="B">&nbsp;Closed</td>
+	<td><input type="checkbox" value="C">&nbsp;Locked</td>
+</tr><tr>
+	<td><input type="checkbox" value="D">&nbsp;No Pick</td>
+	<td><input type="checkbox" value="E">&nbsp;No Pass</td>
+	<td><input type="checkbox" value="F">&nbsp;No Close</td>
+</tr><tr>
+	<td><input type="checkbox" value="G">&nbsp;No Lock</td>
+	<td><input type="checkbox" value="H">&nbsp;No Bash</td>
+	<td><input type="checkbox" value="I">&nbsp;Non Obvious</td>
+</tr><tr>
+	<td><input type="checkbox" value="J">&nbsp;Translucent</td>
+	<td><input type="checkbox" value="K">&nbsp;Jammed</td>
+</tr>
+</table>
+
+</form>
+
+

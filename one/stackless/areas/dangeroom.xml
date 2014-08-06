@@ -1,0 +1,29 @@
+<area id="dangeroom" title="The internet!">
+
+<room id="1" title="#DANGEROOM">
+    <descrip>
+Floating in space, you can see the text of avatars floating
+around you.  Once in a while, one of the names speaks, and
+the text appears in the middle of the air.  Suddenly, a giant
+PING appears!
+    </descrip>
+    <exit dir="east" to="2">The void continues in this direction.</exit>
+    <exit dir="north" to="3">The void continues in this direction.</exit>
+</room>
+
+<room id="2" title="GOOGLE.COM">
+    <descrip>
+A small but powerful input box with two buttons sits here!  
+Are you feeling lucky?!
+    </descrip>
+    <exit dir="west" to="1">The void looks Dangerous this way.</exit>
+</room>
+
+<room id="3" title="Oh no!  It's Porn!">
+    <descrip>
+Quit jacking off, dammit!  You'll never get anything done!
+    </descrip>
+    <exit dir="south" to="1">BACK TO THE DANGEROOM!</exit>
+</room>
+
+</area>

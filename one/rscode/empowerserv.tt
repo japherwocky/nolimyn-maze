@@ -1,0 +1,25 @@
+#CONFIG           {SPEEDWALK}             {OFF}
+#CONFIG           {VERBATIM}              {OFF}
+#CONFIG           {REPEAT ENTER}          {OFF}
+#CONFIG           {ECHO COMMAND}          {ON}
+#CONFIG           {VERBOSE}               {OFF}
+#CONFIG           {WORDWRAP}              {ON}
+#CONFIG           {LOG}                   {RAW}
+#CONFIG           {BUFFER SIZE}           {5000}
+#CONFIG           {SCROLL LOCK}           {ON}
+#CONFIG           {HISTORY SIZE}          {1000}
+#CONFIG           {CONNECT RETRY}         {60}
+#CONFIG           {PACKET PATCH}          {0}
+#CONFIG           {TINTIN CHAR}           {#}
+#CONFIG           {VERBATIM CHAR}         {\\}
+#CONFIG           {REPEAT CHAR}           {!}
+#ACTION           {%0 awakens into the world of Shalar.}  {tell %0 Hi - tag me if you need to be empowered.}  {5}
+#ACTION           {%0 pounces on you and >>> TAGS <<< you!  You're IT!}  {empower %0 yes}             {5}
+#ACTION           {They are already empowered.}  {wink}                       {5}
+#ACTION           {You have EMPOWERED %0,}  {wink %0}                    {5}
+#PATHDIR          {d}                     {u}
+#PATHDIR          {e}                     {w}
+#PATHDIR          {n}                     {s}
+#PATHDIR          {s}                     {n}
+#PATHDIR          {u}                     {d}
+#PATHDIR          {w}                     {e}

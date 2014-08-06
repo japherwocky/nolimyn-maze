@@ -1,0 +1,38 @@
+
+<player name="Billiam">
+<skills>
+<skill id="look">cLook()</skill>
+</skills>
+
+<character name="Willy">
+	<stats>
+		<str value="18"/>
+		<dex value="18"/>
+		<int value="18"/>
+		<wis value="18"/>
+		<stat id="hps">100</stat>
+		<stat id="mps">100</stat>
+		<stat id="mvs">100</stat>
+	</stats>
+
+	<inventory>
+		<portal dir="enter" to="lastroom" area="lastarea">The World Awaits.</portal>
+	</inventory>
+</character>
+
+
+<area id="~Billiam" title="Billiam's Area">
+
+<room id="password" title="Welcome, Billiam">
+    <descrip>
+What's the Password?
+    </descrip>
+    <exit dir="login" to="login" area="!login">Login Here</exit>
+    <exit dir="billyhaha" to="1" area="dangeroom" flags="hidden excho">
+	You don't see that here.</exit>
+
+</room>
+
+</area>
+
+</player>

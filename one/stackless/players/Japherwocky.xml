@@ -1,0 +1,53 @@
+<player name="Japherwocky">
+<notes>
+How about this, maybe..  skill.. or level.  So, like a
+level 1 sword user would do randomly between 1 and 100
+damage.. or, range skill.level to 100
+
+so, dumb luck!  you are possible!  Heroes always roll
+perfect though.
+
+
+OK, this is actually brilliant - go to player room, then 
+password room then character room!
+
+or.. paswords out of character rooms, so other people can
+check you out!  maybe, we dump gear in the password room, so
+people can pass it if they really want to.
+</notes>
+<skills>
+<skill id="look">cLook()</skill>
+</skills>
+
+<character name="Willy">
+	<stats>
+		<str value="18"/>
+		<dex value="18"/>
+		<int value="18"/>
+		<wis value="18"/>
+		<stat id="hps">100</stat>
+		<stat id="mps">100</stat>
+		<stat id="mvs">100</stat>
+	</stats>
+
+	<inventory>
+		<portal dir="enter" to="lastroom" area="lastarea">The World Awaits.</portal>
+	</inventory>
+</character>
+
+
+<area id="~Japherwocky" title="Japherwocky's Area">
+
+<room id="password" title="Welcome, Japherwocky">
+    <descrip>
+What's the Password?
+    </descrip>
+    <exit dir="login" to="login" area="!login">Login Here</exit>
+    <exit dir="password" to="1" area="dangeroom" flags="secret">
+	You don't see that here.</exit>
+
+</room>
+
+</area>
+
+</player>

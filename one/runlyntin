@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+if __name__ == '__main__':
+  import lyntin.engine
+  lyntin.engine.main({"ui": "curses", 'datadir':'/tmp'})
+

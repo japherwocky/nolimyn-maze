@@ -1,0 +1,737 @@
+Sat May  1 11:21:56 2004: SET- Calenduil is setting obj na.
+Sat May  1 11:22:00 2004: SET- Calenduil is setting obj sword .
+Sat May  1 11:22:27 2004: SET- Calenduil is setting obj lyntress v1 20.
+Sat May  1 11:22:33 2004: SET- Calenduil is setting obj lyntress v2 2.
+Sat May  1 11:23:58 2004: SET- Calenduil is setting char self class paladin.
+Sat May  1 11:24:01 2004: SET- Calenduil is setting char self align 1000.
+Sat May  1 11:25:51 2004: LOAD- Calenduil is loading obj.
+Sat May  1 11:25:54 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:25:59 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:26:00 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:26:00 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:26:01 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:26:01 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:26:01 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 11:28:55 2004: LOAD- Fyndin is loading obj 206.
+Sat May  1 11:29:26 2004: SET- Calenduil is setting char fyndin class paladin.
+Sat May  1 11:31:44 2004: SET- Calenduil is setting char.
+Sat May  1 11:31:56 2004: SET- Calenduil is setting prof calenduil appraising 2.
+Sat May  1 11:31:56 2004: SET- Calenduil is setting .
+Sat May  1 11:32:22 2004: SET- Calenduil is setting char calenduil prof appriaisng 1.
+Sat May  1 11:32:27 2004: SET- Calenduil is setting char calenduil prof appraising 1.
+Sat May  1 11:49:31 2004: LOAD- Calenduil is loading obj 22008.
+Sat May  1 11:49:45 2004: SET- Calenduil is setting char self prof forgotten 1.
+Sat May  1 11:49:54 2004: SET- Calenduil is setting char self prof "forgotten lore" 1.
+Sat May  1 12:00:54 2004: LOAD- Fyndin is loading obj 206.
+Sat May  1 12:05:02 2004: LOAD- Calenduil is loading mob 24204.
+Sat May  1 12:05:05 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:05 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:06 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:06 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:06 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:06 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:07 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:07 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:07 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:07 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:08 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:08 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:08 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:08 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 12:05:09 2004: LOAD- Calenduil is loading mob 24306.
+Sat May  1 14:36:04 2004: LOAD- Fyndin is loading obj 29650.
+Sat May  1 14:37:20 2004: LOAD- Fyndin is loading obj 29650.
+Sat May  1 14:38:02 2004: LOAD- Fyndin is loading obj 29650.
+Sat May  1 14:40:46 2004: LOAD- Fyndin is loading obj 16169.
+Sat May  1 14:41:01 2004: LOAD- Fyndin is loading obj 22615.
+Sat May  1 14:41:22 2004: LOAD- Fyndin is loading obj 19215.
+Sun May  2 16:39:41 2004: INDUCT- Fyndin is inducting Sanandar into Phalanx..
+Mon May  3 20:19:15 2004: INDUCT- Kreyastae is inducting Gilin into Bounty..
+Tue May  4 14:07:22 2004: LOAD- Fyndin is loading obj 29650.
+Tue May  4 23:33:39 2004: SET- Calenduil is setting char indural class warrior.
+Tue May  4 23:33:47 2004: SET- Calenduil is setting skill indural evasion 100.
+Tue May  4 23:33:53 2004: SET- Calenduil is setting char indural style .
+Tue May  4 23:34:01 2004: SET- Calenduil is setting style indural skirm.
+Tue May  4 23:34:01 2004: SET- Calenduil is setting .
+Tue May  4 23:34:10 2004: SET- Calenduil is setting char indural style .
+Tue May  4 23:36:26 2004: SET- Calenduil is setting char indural spec 5.
+Tue May  4 23:36:31 2004: SET- Calenduil is setting char indural spec 1.
+Tue May  4 23:40:35 2004: SET- Calenduil is setting skill indural evai.
+Tue May  4 23:40:37 2004: SET- Calenduil is setting skill in.
+Tue May  4 23:40:39 2004: SET- Calenduil is setting skill e.
+Tue May  4 23:40:43 2004: SET- Calenduil is setting skill indural evasion 0.
+Wed May  5 11:25:45 2004: SET- Gawinn is setting obj sign extra none.
+Wed May  5 11:25:52 2004: SET- Gawinn is setting obj sign extra.
+Wed May  5 11:26:09 2004: SET- Gawinn is setting obj sign 'extra' none.
+Wed May  5 11:26:17 2004: SET- Gawinn is setting obj sign e none.
+Wed May  5 11:26:21 2004: SET- Gawinn is setting obj sign x none.
+Wed May  5 11:41:39 2004: INDUCT- Gawinn is inducting Delgrevs into Phalanx..
+Wed May  5 16:43:07 2004: LOAD- Fyndin is loading obj 15807.
+Wed May  5 16:43:07 2004: LOAD- Fyndin is loading obj 15807.
+Thu May  6 17:07:08 2004: SET- Carantoc is setting ski carantoc all 100.
+Thu May  6 17:07:16 2004: SET- Carantoc is setting char carantoc shifter.
+Thu May  6 17:07:24 2004: SET- Carantoc is setting char carantoc class.
+Thu May  6 17:07:28 2004: SET- Carantoc is setting char carantoc class shape.
+Thu May  6 17:11:23 2004: SET- Carantoc is setting char carantoc class elemental.
+Thu May  6 17:11:34 2004: SET- Carantoc is setting char carantoc class ranger.
+Thu May  6 17:18:00 2004: SET- Carantoc is setting char carantoc class anti.
+Thu May  6 17:19:31 2004: SET- Carantoc is setting char carantoc beauty 8.
+Thu May  6 17:19:39 2004: SET- Carantoc is setting char carantoc beauty 10.
+Thu May  6 17:20:19 2004: SET- Carantoc is setting char carantoc beauty 1.
+Thu May  6 18:10:25 2004: LOAD- Carantoc is loading obj 13711.
+Thu May  6 18:12:18 2004: LOAD- Carantoc is loading obj 14003.
+Thu May  6 18:16:58 2004: LOAD- Carantoc is loading obj 13720.
+Thu May  6 18:17:03 2004: LOAD- Carantoc is loading obj 13716.
+Thu May  6 18:17:10 2004: SET- Carantoc is setting char carantoc race human.
+Thu May  6 18:18:26 2004: LOAD- Carantoc is loading obj 13717.
+Thu May  6 18:21:18 2004: LOAD- Carantoc is loading obj 21823.
+Thu May  6 18:21:41 2004: SET- Carantoc is setting char carantoc race duergar.
+Thu May  6 18:22:43 2004: LOAD- Carantoc is loading obj 21825.
+Thu May  6 18:24:34 2004: SET- Carantoc is setting char carantoc race mino.
+Fri May  7 14:24:25 2004: LOAD- Fyndin is loading obj 22506.
+Sun May  9 20:04:28 2004: INDUCT- Kreyastae is inducting Zeglifin into Bounty..
+Mon May 10 13:56:43 2004: TITLE- Fyndin is titling the Contract's Pen.
+Mon May 10 19:31:51 2004: LOAD- Fyndin is loading obj 204.
+Mon May 10 19:36:04 2004: LOAD- Fyndin is loading obj 11803.
+Mon May 10 19:47:06 2004: LOAD- Fyndin is loading obj 11808.
+Mon May 10 19:59:39 2004: TITLE- Fyndin is titling , He Who Preys on The Young.
+Wed May 12 14:31:22 2004: LOAD- Fyndin is loading obj 12235.
+Sun May 16 20:29:46 2004: INDUCT- Fyndin is inducting Zorthane into Phalanx..
+Mon May 17 13:02:31 2004: TITLE- Fyndin is titling the Slayer of Pillagers.
+Mon May 17 17:19:24 2004: SET- Carantoc is setting char indural class zealot.
+Mon May 31 12:42:36 2004: INDUCT- Fyndin is inducting Fyndin into Horde..
+Mon May 31 12:51:52 2004: INDUCT- Fyndin is inducting Fyndin into Theatre..
+Mon May 31 20:57:17 2004: INDUCT- Fyndin is inducting Loronoth into Phalanx..
+Tue Jun  1 17:12:51 2004: LOAD- Fyndin is loading obj 21525.
+Tue Jun  8 15:10:23 2004: INDUCT- Fyndin is inducting Delasden into Scion..
+Wed Jun  9 16:23:48 2004: LOAD- Fyndin is loading obj 11803.
+Thu Jun 10 14:46:13 2004: INDUCT- Fyndin is inducting Demiir into Scion..
+Tue Jun 15 14:01:48 2004: SET- Carantoc is setting char elrath beauty 1.
+Tue Jun 15 14:02:46 2004: TITLE- Carantoc is titling the Faceless Horror.
+Tue Jun 15 14:50:45 2004: SET- imp necromancer mage Xerthorx is setting char elrath align -1000.
+Tue Jun 15 14:50:52 2004: SET- imp necromancer mage Xerthorx is setting char elrath class necr.
+Tue Jun 15 14:51:19 2004: SET- imp necromancer mage Xerthorx is setting ski elrath 'animate dead' 0.
+Tue Jun 15 14:51:58 2004: SET- imp necromancer mage Xerthorx is setting ski elrath parry 0.
+Tue Jun 15 14:52:54 2004: SET- imp necromancer mage Xerthorx is setting ski elrath trance 0.
+Tue Jun 15 14:55:50 2004: TITLE- Carantoc is titling , Student of Darkness.
+Thu Jun 17 09:11:02 2004: INDUCT- Gawinn is inducting Huvtolien into Phalanx..
+Thu Jun 17 09:16:56 2004: TITLE- Gawinn is titling , Steadfast Defender of the Flame.
+Thu Jun 17 09:18:21 2004: TITLE- Gawinn is titling , Lord of the erethryn.
+Thu Jun 17 09:18:33 2004: TITLE- Gawinn is titling , Lord of the Erethryn.
+Fri Jun 18 12:01:21 2004: INDUCT- Fyndin is inducting Kargoth into Phalanx..
+Fri Jun 18 21:57:05 2004: INDUCT- Gravan is inducting Kraven into Phalanx..
+Sat Jun 19 12:17:45 2004: TITLE- Fyndin is titling Featherfoot.
+Sat Jun 19 13:44:09 2004: TITLE- Gravan is titling the Scarred Hunter.
+Sat Jun 19 20:41:48 2004: STRING- Calenduil is stringing mob grenlath long The duergar king is here, rallying his forces for an attack..
+Sat Jun 19 20:51:44 2004: LOAD- Calenduil is loading mob 14004.
+Sat Jun 19 20:51:56 2004: LOAD- Calenduil is loading mob 14004.
+Sat Jun 19 20:52:20 2004: LOAD- Calenduil is loading mob 14004.
+Sat Jun 19 20:52:32 2004: LOAD- Calenduil is loading mob 21808.
+Sat Jun 19 20:52:57 2004: STRING- Calenduil is stringing obj drow name drow warrior drekar.
+Sat Jun 19 20:53:00 2004: STRING- Calenduil is stringing mob drow name drow warrior drekar.
+Sat Jun 19 20:53:46 2004: STRING- Calenduil is stringing mob drekar short Drekar.
+Sat Jun 19 20:54:09 2004: STRING- Calenduil is stringing mob drekar A tall man, face obscured by a heavy hood, sits in a corner here..
+Sat Jun 19 20:54:09 2004: STRING- Calenduil is stringing .
+Sat Jun 19 20:54:13 2004: STRING- Calenduil is stringing mob drekar long A tall man, face obscured by a heavy hood, sits in a corner here..
+Sat Jun 19 20:54:51 2004: LOAD- Calenduil is loading mob 2219.
+Sat Jun 19 20:55:08 2004: STRING- Calenduil is stringing mob thelminac name drekar mage drow.
+Sat Jun 19 20:55:31 2004: STRING- Calenduil is stringing mob drekar long A tall man, face obscured by a heavy hood, sits in a corner here..
+Sat Jun 19 20:55:37 2004: STRING- Calenduil is stringing mob drekar short Drekar.
+Sat Jun 19 21:05:53 2004: LOAD- Calenduil is loading mob 11936.
+Sat Jun 19 21:08:29 2004: LOAD- Calenduil is loading obj 20584.
+Sat Jun 19 21:12:54 2004: SET- Calenduil is setting mob courtier hp 2000.
+Sat Jun 19 21:17:08 2004: LOAD- Calenduil is loading obj 20584.
+Sat Jun 19 21:17:12 2004: SET- Calenduil is setting obj sextant timer 0.
+Sat Jun 19 21:17:14 2004: SET- Calenduil is setting obj sextant timer 01.
+Sat Jun 19 21:17:15 2004: SET- Calenduil is setting obj sextant timer -1.
+Sat Jun 19 21:22:03 2004: SET- drekar mage drow is setting mob deggil level 1.
+Sat Jun 19 21:30:01 2004: SET- Calenduil is setting mob drekar hp 1.
+Sat Jun 19 21:31:12 2004: SET- Calenduil is setting char sadonia hunger 0.
+Sat Jun 19 21:53:09 2004: SET- Calenduil is setting .
+Sat Jun 19 21:53:12 2004: SET- Calenduil is setting char.
+Sat Jun 19 22:22:39 2004: SET- Calenduil is setting char balrand level 55.
+Sat Jun 19 23:08:30 2004: LOAD- Calenduil is loading mob 3404.
+Sat Jun 19 23:12:40 2004: SET- Calenduil is setting sk fyndin all 100.
+Sat Jun 19 23:13:19 2004: LOAD- Calenduil is loading mob 3404.
+Sat Jun 19 23:13:28 2004: LOAD- Calenduil is loading mob 12215.
+Sat Jun 19 23:33:42 2004: SET- Calenduil is setting char sadonia hunger 0.
+Sat Jun 19 23:33:48 2004: SET- Calenduil is setting char sadonia thirst 0.
+Sat Jun 19 23:58:28 2004: SET- Calenduil is setting char sadonia thirst 0.
+Sat Jun 19 23:58:31 2004: SET- Calenduil is setting char sadonia hunger 0.
+Sun Jun 20 00:20:01 2004: INDUCT- Calenduil is inducting Jathruk into Bounty..
+Sun Jun 20 00:20:08 2004: TITLE- Calenduil is titling   .
+Sun Jun 20 19:34:30 2004: SET- Calenduil is setting char jathruk security 2.
+Sun Jun 20 19:40:09 2004: TITLE- Fyndin is titling the Lord of the Lion Tribe.
+Sun Jun 20 21:59:29 2004: LOAD- Fyndin is loading obj 11803.
+Sun Jun 20 23:14:22 2004: TITLE- Gravan is titling , Misguided Wisher of Apocalypse.
+Mon Jun 21 09:17:22 2004: TITLE- Fyndin is titling the Raucous.
+Mon Jun 21 09:17:44 2004: TITLE- Fyndin is titling , Partriarch of Ruination.
+Mon Jun 21 12:25:49 2004: TITLE- Fyndin is titling , Patriarch of Ruination.
+Mon Jun 21 17:20:51 2004: INDUCT- Fyndin is inducting Nhuaer into Scion..
+Wed Jun 23 00:28:22 2004: INDUCT- Gravan is inducting Gravan into Scion..
+Wed Jun 23 00:59:53 2004: SET- Gravan is setting skill jathruk all 100.
+Wed Jun 23 01:05:22 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:05:22 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:05:23 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:05:23 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:11:41 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:12:38 2004: LOAD- Gravan is loading obj 19201.
+Wed Jun 23 01:12:46 2004: LOAD- Gravan is loading mob 19201.
+Wed Jun 23 01:15:13 2004: LOAD- Gravan is loading mob 21502.
+Wed Jun 23 01:43:13 2004: TITLE- Gravan is titling , Harbinger of Ale.
+Wed Jun 23 18:08:49 2004: LOAD- Calenduil is loading obj 13521.
+Wed Jun 23 19:30:16 2004: SET- Calenduil is setting char calenduil prof tracking 1.
+Wed Jun 23 20:45:08 2004: SET- Calenduil is setting char fyndin prof track 1.
+Wed Jun 23 20:45:11 2004: SET- Calenduil is setting char fyndin prof tracking 1.
+Wed Jun 23 21:08:03 2004: SET- Calenduil is setting char self race elf.
+Wed Jun 23 21:08:12 2004: SET- Calenduil is setting char self race human.
+Thu Jun 24 21:24:57 2004: INDUCT- Gravan is inducting Gravan into Bounty..
+Thu Jun 24 21:25:11 2004: TITLE- Gravan is titling  .
+Thu Jun 24 21:37:18 2004: TITLE- Gravan is titling the Bounty Guildmaster.
+Thu Jun 24 21:41:27 2004: SET- Gravan is setting char gravan class zealot.
+Thu Jun 24 21:41:56 2004: SET- Calenduil is setting char gravan prof tracking 1.
+Thu Jun 24 22:08:15 2004: LOAD- Calenduil is loading obj 15900.
+Thu Jun 24 22:11:19 2004: LOAD- Calenduil is loading obj 20166.
+Sun Jun 27 15:53:41 2004: LOAD- Fyndin is loading obj 16100.
+Tue Aug  3 11:57:43 2004: LOAD- Fyndin is loading obj 5237.
+Tue Aug  3 11:57:50 2004: LOAD- Fyndin is loading obj 5237.
+Sun Aug 15 20:33:27 2004: INDUCT- Fyndin is inducting Zhaigar into Bounty..
+Fri Mar 25 23:19:56 2005: SET- Calenduil is setting char jenavia hp 10000.
+Fri Mar 25 23:20:42 2005: SET- Calenduil is setting sk jenavia all 100.
+Fri Mar 25 23:20:48 2005: SET- Calenduil is setting char jenavia str 25.
+Fri Mar 25 23:20:51 2005: SET- Calenduil is setting char jenavia int 25.
+Fri Mar 25 23:20:53 2005: SET- Calenduil is setting char jenavia wis 25.
+Fri Mar 25 23:20:54 2005: SET- Calenduil is setting char jenavia dex 25.
+Fri Mar 25 23:20:56 2005: SET- Calenduil is setting char jenavia con 25.
+Fri Mar 25 23:49:06 2005: LOAD- Calenduil is loading obj 65.
+Fri Mar 25 23:52:20 2005: LOAD- Calenduil is loading obj 65.
+Fri Mar 25 23:59:56 2005: LOAD- Calenduil is loading obj 65.
+Sat Mar 26 00:00:07 2005: STRING- Calenduil is stringing obj whip short the barbed whip called 'Scourge of the Drow'.
+Sat Mar 26 00:00:20 2005: STRING- Calenduil is stringing obj whip name whip barbed scourge drow.
+Sat Mar 26 00:00:33 2005: STRING- Calenduil is stringing obj whip v1 9.
+Sat Mar 26 00:00:33 2005: STRING- Calenduil is stringing .
+Sat Mar 26 00:00:37 2005: SET- Calenduil is setting obj whip v1 9.
+Sat Mar 26 00:01:13 2005: SET- Calenduil is setting obj whip v2 8.
+Sat Mar 26 00:02:28 2005: SET- Calenduil is setting obj whip v3 31.
+Sat Mar 26 00:09:04 2005: LOAD- Calenduil is loading obj 12312.
+Sat Mar 26 00:09:21 2005: LOAD- Calenduil is loading obj 12254.
+Sat Mar 26 00:11:53 2005: LOAD- Calenduil is loading obj 16106.
+Sat Mar 26 00:12:08 2005: STRING- Calenduil is stringing obj ring name ring signet.
+Sat Mar 26 00:12:17 2005: STRING- Calenduil is stringing obj ring short a signet ring of the House of Khin'Ehstrun.
+Sat Mar 26 00:12:29 2005: STRING- Calenduil is stringing obj ring long A signet ring of the house of Khin'Ehstrun is here..
+Sat Mar 26 00:15:34 2005: LOAD- Calenduil is loading obj 21817.
+Sat Mar 26 00:15:48 2005: STRING- Calenduil is stringing obj suit short a suit of Khin'Ehstrun battle armor.
+Sat Mar 26 00:16:41 2005: STRING- Calenduil is stringing obj suit name suit battle armor.
+Sat Mar 26 00:16:59 2005: STRING- Calenduil is stringing obj suit A suit of Khin'Ehstrun battle armor is here..
+Sat Mar 26 00:16:59 2005: STRING- Calenduil is stringing .
+Sat Mar 26 00:17:17 2005: STRING- Calenduil is stringing obj suit long A suit of Khin'Ehstrun battle armor is here..
+Sat Mar 26 00:24:49 2005: STRING- Calenduil is stringing obj veil long You see nothing special about it..
+Sat Mar 26 00:37:29 2005: TITLE- Calenduil is titling the Dark Healer.
+Sat Mar 26 00:37:35 2005: TITLE- Calenduil is titling , Queen of Khin'Ehstrun.
+Sat Mar 26 00:50:27 2005: SET- Calenduil is setting char self class zeal.
+Sat Mar 26 01:27:29 2005: SET- Calenduil is setting char jenavia security 3.
+Sat Mar 26 02:04:59 2005: LOAD- Jenavia is loading 29375.
+Sat Mar 26 02:04:59 2005: LOAD- Jenavia is loading .
+Sat Mar 26 02:05:12 2005: LOAD- Jenavia is loading obj 29375.
+Sat Mar 26 02:06:15 2005: LOAD- Jenavia is loading 29375 55.
+Sat Mar 26 02:06:15 2005: LOAD- Jenavia is loading .
+Sat Mar 26 02:06:22 2005: LOAD- Jenavia is loading 29375.
+Sat Mar 26 02:06:22 2005: LOAD- Jenavia is loading .
+Sat Mar 26 02:08:05 2005: LOAD- Jenavia is loading 29375.
+Sat Mar 26 02:08:05 2005: LOAD- Jenavia is loading .
+Sat Mar 26 02:08:45 2005: LOAD- Jenavia is loading obj 29375.
+Sat Mar 26 02:10:13 2005: LOAD- Jenavia is loading obj 29375.
+Sat Mar 26 02:11:44 2005: LOAD- Jenavia is loading obj 29375.
+Sat Mar 26 02:16:18 2005: LOAD- Jenavia is loading obj 29375.
+Sat Mar 26 02:43:47 2005: LOAD- Jenavia is loading obj 29374.
+Sat Mar 26 02:44:21 2005: LOAD- Jenavia is loading obj 29374.
+Sat Mar 26 03:10:46 2005: LOAD- Jenavia is loading obj 29374.
+Sat Mar 26 03:25:10 2005: LOAD- Jenavia is loading obj 29372.
+Sat Mar 26 03:30:21 2005: LOAD- Jenavia is loading obj 29372.
+Sat Mar 26 03:33:39 2005: LOAD- Jenavia is loading obj 29372.
+Sat Mar 26 03:51:06 2005: LOAD- Jenavia is loading obj 29371.
+Sat Mar 26 04:03:50 2005: LOAD- Jenavia is loading obj 29372.
+Sat Mar 26 04:03:58 2005: LOAD- Jenavia is loading obj 29373.
+Sat Mar 26 04:17:15 2005: LOAD- Jenavia is loading obj 29373.
+Sat Mar 26 04:18:28 2005: LOAD- Jenavia is loading obj 29373.
+Sat Mar 26 04:42:16 2005: LOAD- Jenavia is loading obj 29372.
+Fri Apr  1 03:27:42 2005: INDUCT- Carantoc is inducting Katistrofik into Horde..
+Fri Apr  1 04:00:00 2005: SET- Carantoc is setting .
+Fri Apr  1 04:02:03 2005: LOAD- Carantoc is loading mob 11404.
+Fri Apr  1 04:02:42 2005: LOAD- Carantoc is loading obj 2930.
+Fri Apr  1 04:02:49 2005: SET- Carantoc is setting obj urn v3 99.
+Fri Apr  1 04:02:51 2005: SET- Carantoc is setting obj urn v4 99.
+Fri Apr  1 04:08:18 2005: SET- Carantoc is setting char self class nec.
+Fri Aug  5 16:13:13 2005: SET- Carantoc is setting char zurhnile security 10.
+Fri Aug  5 16:16:13 2005: INDUCT- Zurhnile is inducting Zurhnile into Phalanx..
+Fri Aug  5 16:17:39 2005: SET- Carantoc is setting ski self all 100.
+Fri Aug  5 16:17:51 2005: SET- Carantoc is setting ski zurhnile all 100.
+Fri Aug  5 16:37:17 2005: SET- Carantoc is setting char self prof.
+Fri Aug  5 16:37:23 2005: SET- Carantoc is setting char self prof ancient lore.
+Fri Aug  5 16:37:40 2005: SET- Carantoc is setting char self prof 'ancient lore' 100.
+Fri Aug  5 16:37:42 2005: SET- Carantoc is setting char self prof 'ancient lore' 10.
+Fri Aug  5 16:37:47 2005: SET- Carantoc is setting char self prof 'ancient lore' 1.
+Fri Aug  5 16:37:49 2005: SET- Carantoc is setting char self prof 'ancient lore' 4.
+Fri Aug  5 16:37:56 2005: SET- Carantoc is setting char self proficiency 'ancient lore' 4.
+Fri Aug  5 16:38:01 2005: SET- Carantoc is setting char self proficiency 'ancient lore'.
+Fri Aug  5 16:47:11 2005: LOAD- Carantoc is loading obj 19241.
+Fri Aug  5 16:47:28 2005: SET- Carantoc is setting ski zornath all 100.
+Fri Aug  5 21:07:10 2005: TITLE- Zurhnile is titling the Lord of Zealots.
+Thu Aug 11 17:36:12 2005: SET- Carantoc is setting char zurhnile security 10.
+Thu Aug 11 17:57:58 2005: STRING- Carantoc is stringing char jamesktester name JamesKTester.
+Fri Aug 12 13:37:41 2005: LOAD- Zurhnile is loading .
+Fri Aug 12 13:37:53 2005: LOAD- Zurhnile is loading obj 1296.
+Tue Feb 21 16:56:46 2006: SET- Gawinn is setting .
+Tue Feb 21 16:57:03 2006: SET- Gawinn is setting char anria lvl 55.
+Tue Feb 21 16:58:15 2006: SET- Gawinn is setting char anria level 55.
+Mon Oct 15 21:34:00 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:34:10 2007: SET- Japherwocky is setting all 100.
+Mon Oct 15 21:34:10 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:37:44 2007: LOAD- Japherwocky is loading .
+Mon Oct 15 21:37:50 2007: LOAD- Japherwocky is loading obj 2200.
+Mon Oct 15 21:37:58 2007: LOAD- Japherwocky is loading 2211.
+Mon Oct 15 21:37:58 2007: LOAD- Japherwocky is loading .
+Mon Oct 15 21:38:01 2007: LOAD- Japherwocky is loading obj 2211.
+Mon Oct 15 21:38:25 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:38:35 2007: SET- Japherwocky is setting skill snarf dodge 100.
+Mon Oct 15 21:38:57 2007: SET- Japherwocky is setting skill japherwocky all 100.
+Mon Oct 15 21:41:49 2007: LOAD- Japherwocky is loading obj 20464.
+Mon Oct 15 21:41:59 2007: LOAD- Japherwocky is loading obj 20464.
+Mon Oct 15 21:42:22 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:42:44 2007: SET- Japherwocky is setting sgroup japherwocky anti-paladin.
+Mon Oct 15 21:43:51 2007: SET- Japherwocky is setting japherwocky anti-paladin.
+Mon Oct 15 21:43:51 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:44:02 2007: SET- Japherwocky is setting form japherwocky paladin.
+Mon Oct 15 21:44:02 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:44:15 2007: SET- Japherwocky is setting sgroup japherwocky paladin.
+Mon Oct 15 21:46:59 2007: LOAD- Japherwocky is loading dagger.
+Mon Oct 15 21:46:59 2007: LOAD- Japherwocky is loading .
+Mon Oct 15 21:51:52 2007: SET- Japherwocky is setting snarf fast healing 100.
+Mon Oct 15 21:51:52 2007: SET- Japherwocky is setting .
+Mon Oct 15 21:54:23 2007: STRING- Japherwocky is stringing .
+Mon Oct 15 21:55:04 2007: LOAD- Japherwocky is loading obj 6244.
+Mon Oct 15 21:55:10 2007: LOAD- Japherwocky is loading obj 6243.
+Mon Oct 15 21:56:18 2007: LOAD- Japherwocky is loading obj 2887.
+Mon Oct 15 21:57:56 2007: LOAD- Japherwocky is loading 16124.
+Mon Oct 15 21:57:56 2007: LOAD- Japherwocky is loading .
+Mon Oct 15 21:58:14 2007: LOAD- Japherwocky is loading obj 16124.
+Tue Oct 16 07:56:34 2007: LOAD- Japherwocky is loading obj spellfire.
+Tue Oct 16 07:56:48 2007: LOAD- Japherwocky is loading obj 23235.
+Tue Oct 16 07:57:29 2007: LOAD- Japherwocky is loading obj 23815.
+Tue Oct 16 07:58:06 2007: LOAD- Japherwocky is loading obj 11661.
+Tue Oct 16 08:01:04 2007: LOAD- Japherwocky is loading mob 11418.
+Tue Oct 16 08:23:23 2007: SET- Japherwocky is setting .
+Tue Oct 16 08:27:53 2007: TITLE- Japherwocky is titling the Alpha.
+Tue Oct 16 08:36:16 2007: LOAD- Japherwocky is loading obj 29100.
+Tue Oct 16 08:49:53 2007: SET- Japherwocky is setting .
+Tue Oct 16 08:50:09 2007: SET- Japherwocky is setting mob japherwocky hp 500.
+Tue Oct 16 11:03:13 2007: LOAD- Japherwocky is loading mob 100.
+Tue Oct 16 11:04:13 2007: LOAD- Japherwocky is loading mob 221.
+Tue Oct 16 11:05:30 2007: LOAD- Japherwocky is loading mob 2890.
+Tue Oct 16 15:02:41 2007: LOAD- Japherwocky is loading obj 212.
+Tue Oct 16 15:55:06 2007: SET- Japherwocky is setting .
+Tue Oct 16 16:00:32 2007: INDUCT- Japherwocky is inducting Japherwocky into Scion..
+Tue Oct 16 16:12:56 2007: SET- Japherwocky is setting .
+Tue Oct 16 16:19:18 2007: LOAD- Japherwocky is loading obj 21848.
+Tue Oct 16 16:19:54 2007: LOAD- Japherwocky is loading obj 23653.
+Tue Oct 16 16:27:06 2007: LOAD- Japherwocky is loading obj 22600.
+Tue Oct 16 16:34:28 2007: LOAD- Japherwocky is loading obj 11453.
+Tue Oct 16 16:35:10 2007: LOAD- Japherwocky is loading obj 2471.
+Tue Oct 16 16:35:59 2007: LOAD- Japherwocky is loading mob 23810.
+Tue Oct 16 16:36:30 2007: LOAD- Japherwocky is loading mob 23697.
+Tue Oct 16 16:36:46 2007: LOAD- Japherwocky is loading mob 21532.
+Tue Oct 16 16:39:06 2007: LOAD- Japherwocky is loading obj 2469.
+Tue Oct 16 16:39:24 2007: LOAD- Japherwocky is loading mob danellanor.
+Tue Oct 16 16:39:37 2007: LOAD- Japherwocky is loading mob 21532.
+Tue Oct 16 18:16:22 2007: TITLE- Japherwocky is titling ''.
+Tue Oct 16 18:17:19 2007: TITLE- Japherwocky is titling the Rebel Trillionaire.
+Tue Oct 16 19:10:34 2007: LOAD- Japherwocky is loading obj 2265.
+Tue Oct 16 19:11:13 2007: LOAD- Japherwocky is loading obj 12246.
+Tue Oct 16 19:13:05 2007: SET- Japherwocky is setting .
+Tue Oct 16 19:13:13 2007: SET- Japherwocky is setting sgroup billiam crusader.
+Tue Oct 16 19:14:41 2007: LOAD- Japherwocky is loading obj 18027.
+Tue Oct 16 19:15:37 2007: SET- Japherwocky is setting .
+Tue Oct 16 19:15:44 2007: SET- Japherwocky is setting sgroup billiam crusader.
+Tue Oct 16 19:15:58 2007: SET- Japherwocky is setting sgroup billiam protector.
+Tue Oct 16 19:17:23 2007: SET- Japherwocky is setting sgroup billiam protector.
+Tue Oct 16 19:17:30 2007: SET- Japherwocky is setting sgroup billiam crusader.
+Tue Oct 16 19:18:34 2007: LOAD- Japherwocky is loading mob 3899.
+Tue Oct 16 19:21:17 2007: LOAD- Japherwocky is loading vnum 19280.
+Tue Oct 16 19:21:17 2007: LOAD- Japherwocky is loading .
+Tue Oct 16 19:21:28 2007: LOAD- Japherwocky is loading obj 19280.
+Tue Oct 16 19:23:14 2007: SET- Japherwocky is setting .
+Tue Oct 16 19:23:46 2007: SET- Japherwocky is setting skill billiam 'arms of light' 100.
+Tue Oct 16 19:25:03 2007: LOAD- Japherwocky is loading obj 12245.
+Tue Oct 16 20:26:22 2007: LOAD- Japherwocky is loading mob 2557.
+Tue Oct 16 20:28:53 2007: LOAD- Japherwocky is loading mob 2539.
+Tue Oct 16 20:29:50 2007: LOAD- Japherwocky is loading mob 2537.
+Tue Oct 16 20:30:46 2007: SET- Japherwocky is setting .
+Tue Oct 16 20:31:11 2007: SET- Japherwocky is setting mob soldier hp 50.
+Tue Oct 16 21:03:42 2007: SET- Japherwocky is setting .
+Tue Oct 16 21:54:09 2007: SET- Japherwocky is setting .
+Tue Oct 16 21:54:17 2007: SET- Japherwocky is setting skill all grandalf 75.
+Tue Oct 16 21:54:26 2007: SET- Japherwocky is setting skill grandalf all 75.
+Tue Oct 16 22:00:25 2007: LOAD- Japherwocky is loading obj 311.
+Tue Oct 16 22:01:04 2007: LOAD- Japherwocky is loading obj 2794.
+Tue Oct 16 22:01:36 2007: LOAD- Japherwocky is loading obj 24534.
+Tue Oct 16 22:04:01 2007: LOAD- Japherwocky is loading obj 3713.
+Tue Oct 16 22:04:36 2007: LOAD- Japherwocky is loading obj 3711.
+Tue Oct 16 22:04:56 2007: LOAD- Japherwocky is loading obj 24571.
+Tue Oct 16 22:05:51 2007: LOAD- Japherwocky is loading obj 2.
+Tue Oct 16 22:06:52 2007: LOAD- Japherwocky is loading obj 10007.
+Tue Oct 16 22:09:01 2007: LOAD- Japherwocky is loading obj 10000.
+Tue Oct 16 22:20:41 2007: LOAD- Japherwocky is loading obj 12234.
+Tue Oct 16 22:20:51 2007: LOAD- Japherwocky is loading obj 12234.
+Tue Oct 16 22:21:38 2007: LOAD- Japherwocky is loading obj 3.
+Tue Oct 16 22:22:05 2007: LOAD- Japherwocky is loading .
+Tue Oct 16 22:22:14 2007: LOAD- Japherwocky is loading obj 3 20.
+Tue Oct 16 22:22:54 2007: LOAD- Japherwocky is loading obj 11924.
+Tue Oct 16 22:25:59 2007: LOAD- Japherwocky is loading obj 4660.
+Tue Oct 16 22:26:59 2007: LOAD- Japherwocky is loading obj 4660.
+Tue Oct 16 22:28:57 2007: LOAD- Japherwocky is loading obj 2880.
+Tue Oct 16 22:33:25 2007: LOAD- Japherwocky is loading obj 2881.
+Tue Oct 16 22:43:56 2007: LOAD- Japherwocky is loading obj 9306.
+Tue Oct 16 22:44:26 2007: LOAD- Japherwocky is loading obj 9300.
+Tue Oct 16 22:45:23 2007: LOAD- Japherwocky is loading 9306.
+Tue Oct 16 22:45:23 2007: LOAD- Japherwocky is loading .
+Tue Oct 16 22:45:26 2007: LOAD- Japherwocky is loading obj 9306.
+Tue Oct 16 22:45:38 2007: LOAD- Japherwocky is loading 9308.
+Tue Oct 16 22:45:38 2007: LOAD- Japherwocky is loading .
+Tue Oct 16 22:45:43 2007: LOAD- Japherwocky is loading obj 9308.
+Tue Oct 16 22:46:59 2007: LOAD- Japherwocky is loading 9499.
+Tue Oct 16 22:46:59 2007: LOAD- Japherwocky is loading .
+Tue Oct 16 22:47:02 2007: LOAD- Japherwocky is loading obj 9499.
+Tue Oct 16 22:47:59 2007: LOAD- Japherwocky is loading obj 9498.
+Tue Oct 16 22:50:36 2007: LOAD- Japherwocky is loading obj 9319.
+Tue Oct 16 22:51:00 2007: SET- Japherwocky is setting japherwocky align evil.
+Tue Oct 16 22:51:00 2007: SET- Japherwocky is setting .
+Tue Oct 16 22:51:55 2007: LOAD- Japherwocky is loading obj 9495.
+Tue Oct 16 22:56:00 2007: LOAD- Japherwocky is loading obj 31.
+Wed Oct 17 18:04:25 2007: LOAD- Japherwocky is loading 22009.
+Wed Oct 17 18:04:25 2007: LOAD- Japherwocky is loading .
+Wed Oct 17 18:04:32 2007: LOAD- Japherwocky is loading obj 22009.
+Wed Oct 17 18:10:50 2007: LOAD- Japherwocky is loading obj 11928.
+Wed Oct 17 22:01:01 2007: LOAD- Japherwocky is loading mob 3090.
+Wed Oct 17 22:01:25 2007: LOAD- Japherwocky is loading mob 3404.
+Wed Oct 17 22:02:33 2007: LOAD- Japherwocky is loading mob 2912.
+Wed Oct 17 22:13:26 2007: LOAD- Japherwocky is loading obj 23713.
+Wed Oct 17 22:16:07 2007: LOAD- Japherwocky is loading obj 21.
+Wed Oct 17 22:16:09 2007: LOAD- Japherwocky is loading obj 22.
+Wed Oct 17 22:16:16 2007: LOAD- Japherwocky is loading obj 23.
+Wed Oct 17 22:19:23 2007: LOAD- Japherwocky is loading mob 2013.
+Wed Oct 17 22:20:00 2007: LOAD- Japherwocky is loading obj 51.
+Wed Oct 17 22:28:08 2007: LOAD- Japherwocky is loading obj 50.
+Wed Oct 17 22:52:49 2007: LOAD- Japherwocky is loading mob 28801.
+Wed Oct 17 22:56:21 2007: LOAD- Japherwocky is loading 28805.
+Wed Oct 17 22:56:21 2007: LOAD- Japherwocky is loading .
+Wed Oct 17 22:56:26 2007: LOAD- Japherwocky is loading obj 28805.
+Wed Oct 17 23:05:17 2007: LOAD- Japherwocky is loading mob 2899.
+Thu Oct 18 09:20:55 2007: LOAD- Japherwocky is loading mob 180.
+Thu Oct 18 09:34:59 2007: LOAD- Japherwocky is loading mob 3576.
+Thu Oct 18 17:09:26 2007: LOAD- Japherwocky is loading staff 11823.
+Thu Oct 18 17:09:26 2007: LOAD- Japherwocky is loading .
+Thu Oct 18 17:09:30 2007: LOAD- Japherwocky is loading obj 11823.
+Sun Oct 21 04:36:37 2007: LOAD- Japherwocky is loading obj 29704.
+Sun Oct 21 04:37:03 2007: LOAD- Japherwocky is loading obj 23629.
+Sun Oct 21 19:19:27 2007: LOAD- Japherwocky is loading obj 12315.
+Sun Oct 21 19:20:20 2007: LOAD- Japherwocky is loading mob 838.
+Sun Oct 21 19:20:55 2007: LOAD- Japherwocky is loading obj 19237.
+Sun Oct 21 19:21:16 2007: LOAD- Japherwocky is loading obj 21801.
+Sun Oct 21 19:33:02 2007: LOAD- Japherwocky is loading obj 23.
+Sun Oct 21 19:33:10 2007: SET- Japherwocky is setting anria security 9.
+Sun Oct 21 19:33:10 2007: SET- Japherwocky is setting .
+Sun Oct 21 19:36:43 2007: LOAD- Anria is loading .
+Sun Oct 21 19:36:57 2007: LOAD- Anria is loading obj 30018.
+Sun Oct 21 19:37:15 2007: LOAD- Japherwocky is loading obj 21.
+Sun Oct 21 19:37:53 2007: LOAD- Japherwocky is loading obj 30018.
+Sun Oct 21 19:49:39 2007: LOAD- Japherwocky is loading obj 29709.
+Sun Oct 21 19:52:31 2007: INDUCT- Anria is inducting Anria into Bounty..
+Tue Oct 23 14:57:16 2007: LOAD- Japherwocky is loading obj 23813.
+Tue Oct 23 14:57:28 2007: LOAD- Japherwocky is loading obj 19277.
+Tue Oct 23 14:57:32 2007: LOAD- Japherwocky is loading obj 9327.
+Tue Oct 23 14:59:43 2007: LOAD- Japherwocky is loading ring 11645.
+Tue Oct 23 14:59:43 2007: LOAD- Japherwocky is loading .
+Tue Oct 23 14:59:48 2007: LOAD- Japherwocky is loading obj 11645.
+Tue Oct 23 15:00:04 2007: LOAD- Japherwocky is loading obj 21840.
+Tue Oct 23 15:00:34 2007: LOAD- Japherwocky is loading obj 21840.
+Tue Oct 23 15:01:19 2007: LOAD- Japherwocky is loading obj 20418.
+Tue Oct 23 15:03:12 2007: LOAD- Japherwocky is loading obj 21830.
+Thu Dec  6 04:10:03 2007: TITLE- Japherwocky is titling the Barely Competent..
+Thu Dec  6 04:20:27 2007: TITLE- Japherwocky is titling the Barely Competent.
+Thu Dec  6 04:32:06 2007: INDUCT- Anria is inducting Anria into Horde..
+Thu Dec  6 04:49:20 2007: LOAD- Japherwocky is loading obj staff.
+Thu Dec  6 04:49:26 2007: LOAD- Japherwocky is loading obj.
+Thu Dec  6 05:23:57 2007: LOAD- Japherwocky is loading 11928.
+Thu Dec  6 05:23:57 2007: LOAD- Japherwocky is loading .
+Thu Dec  6 05:24:02 2007: LOAD- Japherwocky is loading obj 11928.
+Thu Dec  6 05:24:23 2007: LOAD- Japherwocky is loading obj 11618.
+Thu Dec  6 05:24:45 2007: LOAD- Japherwocky is loading obj 9327.
+Thu Dec  6 05:25:48 2007: LOAD- Japherwocky is loading obj 3498.
+Thu Dec  6 05:26:51 2007: LOAD- Japherwocky is loading obj 2294.
+Thu Dec  6 05:28:44 2007: LOAD- Japherwocky is loading obj 2874.
+Thu Dec  6 05:51:09 2007: LOAD- Japherwocky is loading obj 3820.
+Thu Dec  6 05:51:39 2007: LOAD- Japherwocky is loading obj 11941.
+Thu Dec  6 05:55:20 2007: SET- Japherwocky is setting .
+Thu Dec  6 05:55:27 2007: SET- Japherwocky is setting skill bjorn axe 100.
+Thu Dec  6 06:17:46 2007: SET- Japherwocky is setting .
+Thu Dec  6 06:17:52 2007: SET- Japherwocky is setting bjorn brutality 75.
+Thu Dec  6 06:17:52 2007: SET- Japherwocky is setting .
+Thu Dec  6 06:24:31 2007: LOAD- Japherwocky is loading 2218.
+Thu Dec  6 06:24:31 2007: LOAD- Japherwocky is loading .
+Thu Dec  6 06:24:34 2007: LOAD- Japherwocky is loading obj 2218.
+Thu Dec  6 06:25:26 2007: SET- Japherwocky is setting bjorn lore 100.
+Thu Dec  6 06:25:26 2007: SET- Japherwocky is setting .
+Thu Dec  6 06:25:32 2007: SET- Japherwocky is setting skill bjorn lore 100.
+Thu Dec  6 16:48:35 2007: LOAD- Japherwocky is loading obj 20563.
+Thu Dec  6 16:48:35 2007: LOAD- Japherwocky is loading obj 20563.
+Thu Dec  6 16:48:36 2007: LOAD- Japherwocky is loading obj 20563.
+Thu Dec  6 16:48:37 2007: LOAD- Japherwocky is loading obj 20563.
+Thu Dec  6 16:48:46 2007: LOAD- Japherwocky is loading obj 24537.
+Fri Dec  7 01:44:25 2007: LOAD- Japherwocky is loading obj 18005.
+Fri Dec  7 01:46:19 2007: LOAD- Japherwocky is loading obj 18000.
+Fri Dec  7 01:46:21 2007: LOAD- Japherwocky is loading obj 18001.
+Fri Dec  7 01:49:13 2007: LOAD- Japherwocky is loading obj 22013.
+Fri Dec  7 01:49:37 2007: LOAD- Japherwocky is loading obj 11438.
+Fri Dec  7 01:50:02 2007: LOAD- Japherwocky is loading obj 22622.
+Fri Dec  7 01:50:16 2007: LOAD- Japherwocky is loading obj 22619.
+Fri Dec  7 01:50:19 2007: LOAD- Japherwocky is loading obj 22620.
+Fri Dec  7 01:50:23 2007: LOAD- Japherwocky is loading obj 22621.
+Fri Dec  7 01:50:25 2007: LOAD- Japherwocky is loading obj 22622.
+Fri Dec  7 01:50:27 2007: LOAD- Japherwocky is loading obj 22623.
+Fri Dec  7 01:50:29 2007: LOAD- Japherwocky is loading obj 22624.
+Fri Dec  7 01:50:32 2007: LOAD- Japherwocky is loading obj 22625.
+Fri Dec  7 01:52:07 2007: LOAD- Japherwocky is loading obj 12201.
+Fri Dec  7 01:53:45 2007: SET- Japherwocky is setting alastair identify 100.
+Fri Dec  7 01:53:45 2007: SET- Japherwocky is setting .
+Fri Dec  7 01:53:50 2007: SET- Japherwocky is setting skill alastair identify 100.
+Fri Dec  7 01:57:22 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 01:57:36 2007: LOAD- Japherwocky is loading obj 24534.
+Fri Dec  7 01:57:53 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 01:57:54 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 01:57:55 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 02:09:41 2007: LOAD- Japherwocky is loading obj 24572.
+Fri Dec  7 02:10:58 2007: LOAD- Japherwocky is loading obj 24582.
+Fri Dec  7 02:14:34 2007: LOAD- Japherwocky is loading obj 24581.
+Fri Dec  7 03:11:28 2007: LOAD- Japherwocky is loading obj jerky.
+Fri Dec  7 03:11:41 2007: LOAD- Japherwocky is loading obj 11850.
+Fri Dec  7 03:11:42 2007: LOAD- Japherwocky is loading obj 11850.
+Fri Dec  7 03:11:42 2007: LOAD- Japherwocky is loading obj 11850.
+Fri Dec  7 03:11:43 2007: LOAD- Japherwocky is loading obj 11850.
+Fri Dec  7 03:11:44 2007: LOAD- Japherwocky is loading obj 11850.
+Fri Dec  7 03:12:29 2007: LOAD- Japherwocky is loading obj canteen.
+Fri Dec  7 03:12:37 2007: LOAD- Japherwocky is loading obj 919.
+Fri Dec  7 03:49:16 2007: LOAD- Japherwocky is loading obj 4615.
+Fri Dec  7 04:16:45 2007: LOAD- Japherwocky is loading obj 4670.
+Fri Dec  7 04:16:56 2007: LOAD- Japherwocky is loading obj 4671.
+Fri Dec  7 04:17:03 2007: LOAD- Japherwocky is loading obj 4672.
+Fri Dec  7 04:17:29 2007: LOAD- Japherwocky is loading obj 4673.
+Fri Dec  7 04:17:31 2007: LOAD- Japherwocky is loading obj 4674.
+Fri Dec  7 04:17:33 2007: LOAD- Japherwocky is loading obj 4675.
+Fri Dec  7 04:17:49 2007: LOAD- Japherwocky is loading obj 4676.
+Fri Dec  7 04:39:23 2007: LOAD- Japherwocky is loading 4658.
+Fri Dec  7 04:39:23 2007: LOAD- Japherwocky is loading .
+Fri Dec  7 04:39:27 2007: LOAD- Japherwocky is loading obj 4658.
+Fri Dec  7 04:54:42 2007: LOAD- Japherwocky is loading obj 23.
+Fri Dec  7 04:55:50 2007: LOAD- Japherwocky is loading obj 11908.
+Fri Dec  7 04:56:33 2007: LOAD- Japherwocky is loading obj 21547.
+Fri Dec  7 04:56:34 2007: LOAD- Japherwocky is loading obj 21547.
+Fri Dec  7 04:56:34 2007: LOAD- Japherwocky is loading obj 21547.
+Fri Dec  7 04:56:35 2007: LOAD- Japherwocky is loading obj 21547.
+Fri Dec  7 04:56:35 2007: LOAD- Japherwocky is loading obj 21547.
+Fri Dec  7 04:57:01 2007: LOAD- Japherwocky is loading obj 2451.
+Fri Dec  7 04:57:08 2007: LOAD- Japherwocky is loading obj 2408.
+Fri Dec  7 04:57:16 2007: LOAD- Japherwocky is loading obj 24537.
+Fri Dec  7 04:58:45 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:45 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:46 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:46 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:47 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:47 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:48 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:48 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:58:49 2007: LOAD- Japherwocky is loading obj 24535.
+Fri Dec  7 04:59:41 2007: LOAD- Japherwocky is loading obj 2220.
+Fri Dec  7 17:58:27 2007: LOAD- Japherwocky is loading obj 24507.
+Sat Dec  8 22:36:14 2007: INDUCT- Anria is inducting Altair into Scion..
+Sun Dec  9 01:28:45 2007: LOAD- Japherwocky is loading 3807.
+Sun Dec  9 01:28:45 2007: LOAD- Japherwocky is loading .
+Sun Dec  9 01:51:13 2007: SET- Japherwocky is setting .
+Sun Dec  9 01:51:44 2007: SET- Japherwocky is setting sgroup alair crusader.
+Sun Dec  9 01:52:27 2007: SET- Japherwocky is setting sgroup alair crusader.
+Sun Dec  9 07:16:13 2007: INDUCT- Japherwocky is inducting Bjorn into Horde..
+Sun Dec  9 07:51:29 2007: SET- Japherwocky is setting bjorn impalement 85.
+Sun Dec  9 07:51:29 2007: SET- Japherwocky is setting .
+Sun Dec  9 07:51:40 2007: SET- Japherwocky is setting skill bjorn impale 85.
+Mon Dec 10 02:50:34 2007: LOAD- Japherwocky is loading obj 10016.
+Mon Dec 10 06:02:24 2007: INDUCT- Japherwocky is inducting Llandar into Scion..
+Tue Dec 11 02:24:22 2007: INDUCT- Anria is inducting Gurd into Horde..
+Tue Dec 11 02:27:13 2007: INDUCT- Anria is inducting Anria into Horde..
+Tue Dec 11 02:33:37 2007: INDUCT- Anria is inducting Gurd into Horde..
+Tue Dec 11 04:26:05 2007: LOAD- Anria is loading obj 1599.
+Tue Dec 11 04:37:10 2007: LOAD- Anria is loading obj 9332.
+Tue Dec 11 04:38:43 2007: LOAD- Anria is loading obj 9313.
+Tue Dec 11 04:39:22 2007: LOAD- Anria is loading obj 930.
+Tue Dec 11 04:51:31 2007: INDUCT- Anria is inducting Polanhoncer into Scion..
+Tue Dec 11 07:21:37 2007: INDUCT- Japherwocky is inducting Mahmiz into Phalanx..
+Tue Dec 11 07:31:11 2007: INDUCT- Japherwocky is inducting Dagia into Phalanx..
+Tue Dec 11 17:54:55 2007: INDUCT- Anria is inducting Furlgammon into Phalanx..
+Tue Dec 11 17:55:54 2007: INDUCT- Anria is inducting Anria into Phalanx..
+Tue Dec 11 22:32:27 2007: TITLE- Japherwocky is titling the cleanest mudder ever.
+Tue Dec 11 22:44:53 2007: INDUCT- Anria is inducting Anria into Horde..
+Tue Dec 11 22:45:49 2007: INDUCT- Japherwocky is inducting Japherwocky into Horde..
+Tue Dec 11 23:12:25 2007: SET- Anria is setting skill.
+Tue Dec 11 23:12:36 2007: SET- Anria is setting skill anria all 100.
+Wed Dec 12 00:10:04 2007: LOAD- Anria is loading obj 14217.
+Wed Dec 12 00:52:00 2007: INDUCT- Anria is inducting Anria into Horde..
+Wed Dec 12 03:24:40 2007: TITLE- Nolimyn is titling the Namesake.
+Wed Dec 12 03:26:00 2007: TITLE- Nolimyn is titling the Reckless.
+Wed Dec 12 03:36:50 2007: LOAD- Nolimyn is loading mob 19201.
+Wed Dec 12 03:36:56 2007: LOAD- Nolimyn is loading mob 19201.
+Wed Dec 12 03:37:04 2007: LOAD- Nolimyn is loading mob 19201.
+Wed Dec 12 05:10:07 2007: LOAD- Anria is loading obj 2448.
+Wed Dec 12 05:42:23 2007: INDUCT- Nolimyn is inducting Nolimyn into Horde..
+Wed Dec 12 05:50:17 2007: INDUCT- Nolimyn is inducting Nolimyn into Phalanx..
+Wed Dec 12 05:51:16 2007: INDUCT- Anria is inducting Anria into Phalanx..
+Wed Dec 12 06:30:13 2007: TITLE- Nolimyn is titling the Inquisitor.
+Wed Dec 12 06:30:22 2007: TITLE- Nolimyn is titling , the Inquisitor.
+Wed Dec 12 06:32:19 2007: INDUCT- Nolimyn is inducting Mahmiz into Bounty..
+Wed Dec 12 06:33:10 2007: TITLE- Nolimyn is titling The Inquisitive Inquisitor.
+Wed Dec 12 06:34:44 2007: INDUCT- Nolimyn is inducting Nolimyn into Bounty..
+Wed Dec 12 07:02:29 2007: TITLE- Nolimyn is titling ' '.
+Wed Dec 12 07:03:20 2007: TITLE- Nolimyn is titling , First of the Phalanx.
+Wed Dec 12 23:41:06 2007: TITLE- Anria is titling the Face Rocker.
+Thu Dec 13 01:04:28 2007: INDUCT- Anria is inducting Anria into Bounty..
+Thu Dec 13 01:11:09 2007: INDUCT- Anria is inducting Mimby into Scion..
+Thu Dec 13 01:35:13 2007: TITLE- Anria is titling , Bastion of the Horde.
+Thu Dec 13 01:36:09 2007: INDUCT- Anria is inducting Haughttus into Scion..
+Thu Dec 13 05:39:34 2007: INDUCT- Nolimyn is inducting Khurskin into Phalanx..
+Thu Dec 13 05:40:54 2007: TITLE- Nolimyn is titling , not the Fore.
+Fri Dec 14 00:17:54 2007: SET- Nolimyn is setting .
+Fri Dec 14 01:14:50 2007: SET- Nolimyn is setting skill nolimyn lore 100.
+Fri Dec 14 01:23:45 2007: SET- Nolimyn is setting skill tsao ground control 75.
+Fri Dec 14 01:23:53 2007: SET- Nolimyn is setting skill tsao 'ground control' 75.
+Fri Dec 14 01:50:04 2007: SET- Nolimyn is setting skill tsao lore 100.
+Fri Dec 14 02:03:02 2007: LOAD- Nolimyn is loading obj 4115.
+Fri Dec 14 02:03:21 2007: SET- Nolimyn is setting skill nolimyn locate 100.
+Fri Dec 14 02:11:55 2007: SET- Nolimyn is setting skill tsao lore 100.
+Fri Dec 14 02:57:05 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:05 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:05 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:05 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:06 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:06 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:06 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:06 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:07 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 02:57:07 2007: LOAD- Nolimyn is loading obj 2407.
+Fri Dec 14 03:09:04 2007: SET- Nolimyn is setting skill nolimyn id 100.
+Fri Dec 14 04:16:27 2007: INDUCT- Nolimyn is inducting Vanaduil into Phalanx..
+Fri Dec 14 04:31:51 2007: INDUCT- Nolimyn is inducting Tsao into Scion..
+Fri Dec 14 04:57:06 2007: SET- Nolimyn is setting skill nolimyn knock 100.
+Fri Dec 14 06:28:06 2007: SET- Nolimyn is setting skill nolimyn 'remove curse' 100.
+Sat Dec 15 07:34:37 2007: INDUCT- Nolimyn is inducting Nolimyn into Horde..
+Sat Dec 15 20:32:03 2007: INDUCT- Nolimyn is inducting Aldurin into Horde..
+Sat Dec 15 21:17:41 2007: TITLE- Nolimyn is titling , Complains a lot.
+Sat Dec 15 21:25:44 2007: LOAD- Nolimyn is loading 2414.
+Sat Dec 15 21:25:44 2007: LOAD- Nolimyn is loading .
+Sat Dec 15 21:25:49 2007: LOAD- Nolimyn is loading obj 2414.
+Sat Dec 15 21:27:25 2007: LOAD- Nolimyn is loading obj 2435.
+Sat Dec 15 21:32:27 2007: LOAD- Nolimyn is loading obj 921.
+Sat Dec 15 21:33:35 2007: LOAD- Nolimyn is loading obj 9334.
+Sat Dec 15 21:33:51 2007: LOAD- Nolimyn is loading obj 19210.
+Sat Dec 15 21:33:58 2007: LOAD- Nolimyn is loading obj 1099.
+Sat Dec 15 21:34:51 2007: LOAD- Nolimyn is loading obj 4642.
+Sun Dec 16 01:31:20 2007: LOAD- Nolimyn is loading obj 21822.
+Sun Dec 16 01:31:44 2007: LOAD- Nolimyn is loading obj 24740.
+Sun Dec 16 01:54:38 2007: INDUCT- Nolimyn is inducting Blandalf into Scion..
+Sun Dec 16 02:00:58 2007: LOAD- Nolimyn is loading obj 3831.
+Sun Dec 16 02:08:50 2007: LOAD- Nolimyn is loading obj 312.
+Sun Dec 16 03:16:01 2007: LOAD- Nolimyn is loading obj 1709.
+Sun Dec 16 03:53:25 2007: INDUCT- Nolimyn is inducting Leiriel into Scion..
+Sun Dec 16 04:30:28 2007: INDUCT- Nolimyn is inducting Nolimyn into Scion..
+Sun Dec 16 06:48:28 2007: LOAD- Nolimyn is loading obj 3 10000.
+Sun Dec 16 16:27:35 2007: INDUCT- Nolimyn is inducting Gehrez into Bounty..
+Sun Dec 16 16:34:23 2007: INDUCT- Nolimyn is inducting Everin into Scion..
+Sun Dec 16 16:54:34 2007: SET- Nolimyn is setting skill nolimyn peek 100.
+Sun Dec 16 17:53:52 2007: LOAD- Nolimyn is loading obj 20573.
+Sun Dec 16 17:54:50 2007: LOAD- Nolimyn is loading obj 10016.
+Sun Dec 16 19:23:05 2007: INDUCT- Nolimyn is inducting Aslaja into Scion..
+Sun Dec 16 19:32:10 2007: TITLE- Nolimyn is titling , Pluckiest Punchingbag.
+Sun Dec 16 19:38:12 2007: LOAD- Anria is loading obj 4642.
+Sun Dec 16 20:05:38 2007: INDUCT- Nolimyn is inducting Nolimyn into Bounty..
+Sun Dec 16 20:09:17 2007: LOAD- Nolimyn is loading obj 23620.
+Sun Dec 16 20:10:27 2007: LOAD- Nolimyn is loading obj 23621.
+Sun Dec 16 20:37:30 2007: LOAD- Nolimyn is loading obj 23621.
+Sun Dec 16 20:45:02 2007: INDUCT- Nolimyn is inducting Nolimyn into Scion..
+Sun Dec 16 21:21:00 2007: SET- Nolimyn is setting .
+Sun Dec 16 21:21:50 2007: SET- Nolimyn is setting .
+Sun Dec 16 21:21:57 2007: SET- Nolimyn is setting sgroup garavin crusader.
+Sun Dec 16 22:03:18 2007: SET- Nolimyn is setting .
+Sun Dec 16 22:03:31 2007: SET- Nolimyn is setting sgroup nolimyn protector.
+Sun Dec 16 22:15:10 2007: TITLE- Nolimyn is titling , the Timid.
+Sun Dec 16 23:00:00 2007: INDUCT- Nolimyn is inducting Wilbo into Bounty..
+Sun Dec 16 23:12:41 2007: SET- Nolimyn is setting .
+Sun Dec 16 23:12:56 2007: SET- Nolimyn is setting sgroup loranthen protector.
+Sun Dec 16 23:13:05 2007: SET- Nolimyn is setting sgroup loranthel protector.
+Sun Dec 16 23:13:08 2007: SET- Nolimyn is setting sgroup loranthel protector.
+Mon Dec 17 00:56:05 2007: SET- Nolimyn is setting skill wilbo enhanced 100.
+Mon Dec 17 02:38:27 2007: INDUCT- Nolimyn is inducting Garavin into Phalanx..
+Mon Dec 17 21:57:19 2007: LOAD- Anria is loading obj 4642.
+Mon Dec 17 22:28:19 2007: LOAD- Anria is loading obj 23650.
+Mon Dec 17 23:51:34 2007: LOAD- Anria is loading obj 4642.
+Tue Dec 18 00:03:22 2007: LOAD- Anria is loading obj 4642.
+Tue Dec 18 01:33:25 2007: INDUCT- Anria is inducting Anria into Phalanx..
+Tue Dec 18 07:42:27 2007: SET- Nolimyn is setting .
+Tue Dec 18 07:42:34 2007: SET- Nolimyn is setting skill nolimyn all 100.
+Wed Dec 19 04:11:29 2007: SET- Nolimyn is setting skill drakthige bloodlust 100.
+Thu Dec 20 00:08:00 2007: INDUCT- Nolimyn is inducting Nolimyn into Horde..
+Thu Dec 20 00:18:32 2007: SET- Nolimyn is setting .
+Thu Dec 20 00:18:38 2007: SET- Nolimyn is setting sgroup terlin crusader.
+Thu Dec 20 00:18:40 2007: SET- Nolimyn is setting sgroup terlin crusader.
+Thu Dec 20 02:22:26 2007: LOAD- Nolimyn is loading obj 31.
+Thu Dec 20 03:59:51 2007: INDUCT- Nolimyn is inducting Nolimyn into Scion..
+Thu Dec 20 04:24:30 2007: INDUCT- Anria is inducting Anria into Scion..
+Thu Dec 20 05:56:04 2007: TITLE- Nolimyn is titling , Swallower.
+Thu Dec 20 06:13:12 2007: INDUCT- Nolimyn is inducting Urmoronth into Bounty..
+Thu Dec 20 06:13:39 2007: INDUCT- Nolimyn is inducting Nolimyn into Bounty..
+Thu Dec 20 16:45:07 2007: LOAD- Nolimyn is loading obj 1220.
+Fri Dec 21 01:42:14 2007: LOAD- Nolimyn is loading obj 50.
+Fri Dec 21 01:42:24 2007: LOAD- Nolimyn is loading obj 30.
+Fri Dec 21 01:51:09 2007: SET- Nolimyn is setting .
+Fri Dec 21 01:51:18 2007: SET- Nolimyn is setting obj .
+Fri Dec 21 01:51:28 2007: SET- Nolimyn is setting obj vest value4 53.
+Fri Dec 21 01:51:50 2007: SET- Nolimyn is setting obj vest value4 0.
+Fri Dec 21 01:52:40 2007: SET- Nolimyn is setting obj vest v1 29.
+Fri Dec 21 02:01:04 2007: LOAD- Nolimyn is loading 1327.
+Fri Dec 21 02:01:04 2007: LOAD- Nolimyn is loading .
+Fri Dec 21 02:01:09 2007: LOAD- Nolimyn is loading obj 1327.
+Fri Dec 21 02:02:15 2007: SET- Nolimyn is setting obj staff v3 5.
+Fri Dec 21 02:05:32 2007: LOAD- Nolimyn is loading obj 1328.
+Fri Dec 21 02:15:03 2007: LOAD- Nolimyn is loading obj 21822.
+Fri Dec 21 03:56:59 2007: LOAD- Nolimyn is loading obj 2798.
+Fri Dec 21 03:59:18 2007: LOAD- Nolimyn is loading obj 16601.
+Fri Dec 21 03:59:45 2007: INDUCT- Nolimyn is inducting Nolimyn into Phalanx..
+Fri Dec 21 04:00:19 2007: SET- Nolimyn is setting .
+Fri Dec 21 04:03:00 2007: LOAD- Nolimyn is loading obj 4663.
+Fri Dec 21 04:46:37 2007: SET- Nolimyn is setting skill nolimyn butcher 100.
+Fri Dec 21 06:18:45 2007: LOAD- Nolimyn is loading obj 14216.
+Wed Jan  6 15:20:38 2010: INDUCT- Japherwocky is inducting Japherwocky into Horde..
+Wed Jan  6 17:48:32 2010: INDUCT- Japherwocky is inducting Japherwocky into Scion..
+Wed Jan  6 17:48:42 2010: INDUCT- Japherwocky is inducting Logan into Scion..
+Wed Jan  6 18:18:52 2010: LOAD- Japherwocky is loading .
+Wed Jan  6 18:22:26 2010: INDUCT- Japherwocky is inducting Japherwocky into Horde..
+Wed Jan  6 19:00:52 2010: SET- Japherwocky is setting .
+Wed Jan  6 19:06:30 2010: SET- Japherwocky is setting .
+Wed Jan  6 19:06:35 2010: SET- Japherwocky is setting sgroup goranth crusader.
+Wed Jan  6 19:06:43 2010: SET- Japherwocky is setting sgroup goranth crusader.
+Wed Jan  6 19:06:59 2010: INDUCT- Japherwocky is inducting Goranth into Phalanx..
+Wed Jan  6 19:40:28 2010: LOAD- Japherwocky is loading obj 21.
+Wed Jan  6 19:58:51 2010: INDUCT- Japherwocky is inducting Fukuyama into Bounty..
+Wed Jan  6 20:08:46 2010: LOAD- Japherwocky is loading obj 21.
+Thu Jan  7 09:33:15 2010: INDUCT- Logan is inducting Veilen into Scion..
+Thu Jan  7 09:51:28 2010: INDUCT- Logan is inducting Hurak into Scion..
+Thu Jan  7 10:42:06 2010: INDUCT- Logan is inducting Grogim into Scion..
+Thu Jan  7 10:56:31 2010: INDUCT- Japherwocky is inducting Qualen into Bounty..
+Thu Jan  7 11:20:51 2010: INDUCT- Japherwocky is inducting Mandalf into Scion..
+Thu Jan  7 11:27:47 2010: INDUCT- Japherwocky is inducting Japherwocky into Bounty..
+Thu Jan  7 12:01:54 2010: INDUCT- Japherwocky is inducting Juol into Bounty..

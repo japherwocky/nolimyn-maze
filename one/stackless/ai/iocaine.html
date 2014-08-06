@@ -1,0 +1,154 @@
+<html><head>
+<title>Iocaine Powder Explained</title>
+</head><body bgcolor="white" text="black">
+<h1>Iocaine Powder</h1>
+<em>They were both poisoned.</em>
+<p>
+Iocaine Powder is a heuristically designed compilation of strategies and 
+meta-strategies which took first place in Darse Billings' excellent
+<a href="http://www.cs.ualberta.ca/~darse/rsb-results1.html">First 
+International RoShamBo Programming Competition</a>.  You may use its 
+<a href="iocaine.c">source code</a> freely; I ask only that you give me credit
+for any derived works.  I attempt here to explain how it works.
+<p>
+<h3>Meta-Strategy</h3>
+RoShamBo strategies attempt to predict what the opponent will do.  Given a
+successful prediction, it is easy to defeat the opponent (if you know they will
+play rock, you play paper).  However, straightforward prediction will often 
+fail; the opponent may not be vulnerable to prediction, or worse, they might
+have anticipated your predictive logic and played accordingly.  Iocaine 
+Powder's meta-strategy expands any predictive algorithm <b>P</b> into six
+possible strategies:
+
+<dl>
+<dt><b>P.0: naive application</b>
+<dd>Assume the opponent is vulnerable to prediction by P; predict their next 
+move, and play to beat it.  If P predicts your opponent will play rock, play
+paper to cover rock.  This is the obvious application of P.<p>
+<dt><b>P.1: defeat second-guessing</b>
+<dd>Assume the opponent thinks you will use P.0.  If P predicts rock, P.0
+would play paper to cover rock, but the opponent could anticipate this move
+and play scissors to cut paper.  Instead, you play rock to dull scissors.<p>
+<dt><b>P.2: defeat triple-guessing</b>
+<dd>Assume the opponent thinks you will use P.1.  Your opponent thinks you will
+play rock to dull the scissors they would have played to cut the paper you 
+would have played to cover the rock P would have predicted, so they will play
+paper to cover your rock.  But you one-up them, playing scissors to cut their
+paper.<p>
+At this point, you should be getting weary of the endless chain.  "We could
+second-guess each other forever," you say.  But no; because of the nature of 
+RoShamBo, P.3 recommends you play paper -- just like P.0!  So we're only left
+with these three strategies, each of which will suggest a different 
+alternative.  (This may not seem useful to you, but have patience.)<p>
+<dt><b>P'.0: second-guess the opponent</b>
+<dd>This strategy assumes the opponent uses P themselves against you.  Modify
+P (if necessary) to exchange the position of you and your opponent.  If P'
+predicts that you will play rock, you would expect your opponent to play paper,
+but instead you play scissors.<p>
+<dt><b>P'.1, P'.2: variations on a theme</b>
+<dd>As with P.1 and P.2, these represent "rotations" of the basic idea, 
+designed to counteract your opponent's second-guessing.<p>
+</dl>
+
+So, for even a single predictive algorithm P, we now have six possible 
+strategies.  One of them may be correct -- but that's little more useful than
+saying "one of rock, scissors, or paper will be the correct next move".  We
+need a <em>meta-strategy</em> to decide between these six strategies.
+<p>
+Iocaine Powder's basic meta-strategy is simple: <strong>Use past performance 
+to judge future results</strong>.
+<p>
+The basic assumption made by this meta-strategy is that an opponent will not
+quickly vary their strategy.  Either they will play some predictive algorithm 
+P, or they will play to defeat it, or use some level of second-guessing; but
+whatever they do, they will do it consistently.  To take advantage of this
+(assumed) predictability, at every round Iocaine Powder measures how well each
+of the strategies under consideration (six for every predictive algorithm!)
+would have done, if it had played them.  It assigns each one a score, using the
+standard scoring scheme used by the tournament: +1 point if the strategy would
+have won the hand, -1 if it would have lost, 0 if it would have drawn.
+<p>
+Then, to actually choose a move, Iocaine Powder simply picks the strategy 
+variant with the highest score to date.
+<p>
+The end result is that, for any given predictive technique, we will beat any 
+contestant that would be beaten by the technique, any contestant using the 
+technique directly, and any contestant designed to defeat the technique 
+directly.
+
+<h3>Strategies</h3>
+
+All the meta-strategy in the world isn't useful without some predictive
+algorithms.  Iocaine Powder uses three predictors:
+
+<dl>
+<dt><b>Random guess</b>
+<dd>This "predictor" simply chooses a move at random.  I include this algorithm
+as a hedge; if someone is actually able to predict and defeat Iocaine Powder 
+with any regularity, before long the random predictor will be ranked with the
+highest score (since nobody can defeat random!).  At that point, the 
+meta-strategy will ensure that the program "cuts its losses" and starts playing
+randomly to avoid a devastating loss.  (Thanks to Jesse Rosenstock for
+discovering the necessity of such a hedge.)<p>
+
+<dt><b>Frequency analysis</b>
+<dd>The frequency analyzer looks at the opponent's history, finds the move they
+have made most frequently in the past, and predicts that they will choose it.
+While this scores a resounding defeat against "Good Ole Rock", it isn't very 
+useful against more sophisticated opponents (which are usually quite 
+symmetrical).  I include it mostly to defeat other competitors which use it as
+a predictive algorithm.<p>
+
+<dt><b>History matching</b>
+<dd>This is easily the strongest predictor in Iocaine Powder's arsenal, and
+variants of this technique are widely used in other strong entries.  The 
+version in Iocaine Powder looks for a sequence in the past matching the last
+few moves.  For example, if in the last three moves, we played paper against 
+rock, scissors against scissors, and scissors against rock, the predictor will
+look for times in the past when the same three moves occurred.  (In fact, it
+looks for the longest match to recent history; a repeat of the last 30 moves 
+is considered better than just the last 3 moves.)  Once such a repeat is
+located, the history matcher examines the move our opponent made afterwards,
+and assumes they will make it again.  (Thanks to Rudi Cilibrasi for introducing
+me to this algorithm, long ago.)<p>
+Once history is established, this predictor easily defeats many weak 
+contestants.  Perhaps more importantly, the application of meta-strategy allows
+Iocaine to outguess other strong opponents.
+</dl>
+
+<h3>Details</h3>
+
+If you look at Iocaine Powder's source code, you'll discover additional 
+features which I haven't treated in this simplified explanation.  For example,
+the strategy arsenal includes several variations of frequency analysis and
+history matching, each of which looks at a different amount of history; in some
+cases, prediction using the last 5 moves is superior to prediction using the 
+last 500.  We run each algorithm with history sizes of 1000, 100, 10, 5, 2,
+and 1, and use the general meta-strategy to figure out which one does best.<p>
+
+In fact, Iocaine even varies the horizon of its meta-strategy analyzer!
+Strategies are compared over the last 1000, 100, 10, 5, 2, and 1 moves, and
+a meta-meta-strategy decides which meta-strategy to use (based on which picker
+performed best over the total history of the game).  This was designed to 
+defeat contestants which switch strategy, and to outfox variants of the simpler,
+older version of Iocaine Powder.<p>
+
+<h3>Summary</h3>
+
+One must remember, when participating in a contest of this type, that we are 
+not attempting to model natural phenomena or predict user actions; instead,
+these programs are competing against hostile opponents who are trying very hard
+not to be predictable.  Iocaine Powder doesn't use advanced statistical
+techniques or Markov models (though it could perhaps be improved if it did),
+but it is very devious.<p>
+
+As a final word, note that any good strategy should have a random fallback (if 
+it's losing, start playing randomly).  It's not possible to beat such a 
+strategy by very much, so a competition populated by entries designed by people 
+who realize this basic fact would be quite boring.  Since it's the "dumb" 
+entries that make RoShamBo interesting, so the challenge is mostly to figure 
+out the things entrants who are not very bright will think of.
+
+<hr>
+<a href="http://ofb.net/~egnor">Dan Egnor</a>
+</body></html>

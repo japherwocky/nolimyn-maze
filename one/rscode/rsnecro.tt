@@ -1,0 +1,22 @@
+#CONFIG           {SPEEDWALK}             {OFF}
+#CONFIG           {VERBATIM}              {OFF}
+#CONFIG           {REPEAT ENTER}          {OFF}
+#CONFIG           {ECHO COMMAND}          {ON}
+#CONFIG           {VERBOSE}               {OFF}
+#CONFIG           {WORDWRAP}              {ON}
+#CONFIG           {LOG}                   {RAW}
+#CONFIG           {BUFFER SIZE}           {5000}
+#CONFIG           {SCROLL LOCK}           {ON}
+#CONFIG           {HISTORY SIZE}          {1000}
+#CONFIG           {CONNECT RETRY}         {60}
+#CONFIG           {PACKET PATCH}          {0}
+#CONFIG           {TINTIN CHAR}           {#}
+#CONFIG           {VERBATIM CHAR}         {\\}
+#CONFIG           {REPEAT CHAR}           {!}
+#ALIAS            {rs}                    {#session rs pearachute.net 9998}  {5}
+#PATHDIR          {d}                     {u}
+#PATHDIR          {e}                     {w}
+#PATHDIR          {n}                     {s}
+#PATHDIR          {s}                     {n}
+#PATHDIR          {u}                     {d}
+#PATHDIR          {w}                     {e}

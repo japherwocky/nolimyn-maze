@@ -1,0 +1,54 @@
+#!/bin/csh
+cd area
+
+while ( 1 )
+
+	#find filename for log (TODO: use a freaking timestamp)
+	set index = 1000
+	while ( 1 )
+		set logfile = ../logs/$index.log
+
+		if ( ! -e $logfile ) break
+		@ index++
+   	end
+
+	#rotate in new binary if we have changes
+	if ( -e ./newlimyn ) then
+		mv -f ./golimyn ./golimyn.bak
+		mv -f ./newlimyn ./golimyn
+		endif
+
+
+	#rotating out old core dumps
+	if ( -e ./gdb.out3 ) then
+		mv -f ./gdb.out3 ./gdb.out4
+		endif
+
+	if ( -e ./gdb.out2 ) then
+		mv -f ./gdb.out2 ./gdb.out3
+		endif
+
+	if ( -e ./gdb.out1 ) then
+		mv -f ./gdb.out1 ./gdb.out2
+ 		endif
+
+	if ( -e ./core ) then
+		echo bt > /tmp/gdb_input
+		echo info locals >> /tmp/gdb_input
+		echo up >> /tmp/gdb_input
+		echo info locals >> /tmp/gdb_input
+		echo quit >> /tmp/gdb_input
+		gdb ./golimyn ./core < /tmp/gdb_input > gdb.out1
+		mv -f core core.new
+		endif
+
+	if ( -e ./shutdown.txt ) then
+		rm -f ./shutdown.txt
+	else
+		sleep 15
+    	endif
+
+	./golimyn 9998 >&! $logfile
+
+end
+startup

@@ -1,0 +1,18 @@
+
+read/load playerfiles.
+Logins, a la new characters.
+
+Objects
+Mobs
+
+Combat
+
+so you have exit flags, and {'hidden':'all'}.  What you need
+to do, is make that {'hidden':all}, and have a set of dictionaries,
+a la, all,mortal,immortal,mage,warrior, etc. for class only shit.
+
+send a new prompt after 'You can't go that way.'
+
+
+
+pickling is the way to save.

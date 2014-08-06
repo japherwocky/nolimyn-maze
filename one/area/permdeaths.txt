@@ -1,0 +1,22 @@
+DELETED||[42  Abyss War]||[HORDE] Roelanthe the Skull Cracker||Kills: 1||Deaths: 0||Age: 135||Hours: 19||Sat Jun 26 17:32:45 2004
+DELETED||[32  Drow Nec]||Tuefle the Archmage of Summoning||Kills: 1||Deaths: 1||Age: 183||Hours: 2||Wed Dec 12 23:47:59 2007
+DELETED||[34  Human A-P]||Senishun the General of Darkness||Kills: 0||Deaths: 0||Age: 20||Hours: 2||Thu Dec 13 23:01:53 2007
+DELETED||[51  Mino A-P]||Tonae the Anti-Hero||Kills: 0||Deaths: 1||Age: 20||Hours: 6||Sun Dec 16 00:41:47 2007
+DELETED||[51  Dwarf Pal]||[PHALANX] Dagia the Paladin Hero||Kills: 4||Deaths: 1||Age: 66||Hours: 33||Mon Dec 17 18:18:42 2007
+DELETED||[44  Abyss A-P]||[SCION] Aslaja the Spreader of Pestilence||Kills: 3||Deaths: 1||Age: 126||Hours: 11||Tue Dec 18 03:14:44 2007
+DELETED||[39  Mino A-P]||Reshann the Arch-Fiend||Kills: 0||Deaths: 0||Age: 21||Hours: 4||Thu Dec 20 12:43:44 2007
+DELETED||[41  Duerg A-P]||Drakthige the Evil Prince||Kills: 0||Deaths: 0||Age: 61||Hours: 2||Fri Dec 21 00:34:03 2007
+DELETED||[32  Human War]||Malsius the Baron of Storms||Kills: 0||Deaths: 1||Age: 20||Hours: 1||Sat Dec 27 19:26:12 2008
+DELETED||[40  Drow Sor]||Tehlurker the Master of the Elements||Kills: 0||Deaths: 0||Age: 187||Hours: 2||Sat Dec 27 23:32:59 2008
+DELETED||[49   Imp Asn]||Soap the Unspeakable Thing||Kills: 0||Deaths: 0||Age: 83||Hours: 1||Sat Dec 27 23:34:26 2008
+DELETED||[35  Human A-P]||Lucan the Field Marshall of Darkness||Kills: 0||Deaths: 0||Age: 21||Hours: 1||Sun Dec 28 23:18:56 2008
+DELETED||[35   Imp Nec]||Zultorizar the Archmage Summoner of Demons||Kills: 0||Deaths: 0||Age: 80||Hours: 1||Mon Dec 29 12:32:12 2008
+DELETED||[35  Human Asn]||Malsius the Slasher||Kills: 0||Deaths: 0||Age: 21||Hours: 1||Mon Dec 29 19:02:56 2008
+DELETED||[34  Human Asn]||Tehlurker the Mad Knifer||Kills: 0||Deaths: 0||Age: 21||Hours: 1||Mon Dec 29 19:57:12 2008
+DELETED||[51  Abyss A-P]||Deriveh the Anti-Heroine||Kills: 0||Deaths: 2||Age: 126||Hours: 24||Mon Dec 29 20:11:19 2008
+DELETED||[33   Imp Sor]||Kinkladze the Master of Ice||Kills: 0||Deaths: 0||Age: 81||Hours: 0||Tue Dec 30 11:30:19 2008
+DELETED||[31   Imp A-P]||Kite the Footman of Darkness||Kills: 3||Deaths: 0||Age: 85||Hours: 1||Tue Dec 30 15:00:24 2008
+DELETED||[51  Mino A-P]||Felentath the Anti-Hero||Kills: 1||Deaths: 1||Age: 21||Hours: 36||Tue Dec 30 16:48:27 2008
+DELETED||[43  Mino War]||Drejan the Armor Splitter||Kills: 6||Deaths: 0||Age: 20||Hours: 2||Thu Jan  1 19:10:37 2009
+DELETED||[45  Abyss War]||Shitbrick the Weapon Master||Kills: 1||Deaths: 3||Age: 132||Hours: 6||Sun Jan  4 23:42:03 2009
+DELETED||[51  Abyss War]||Jhyrb the Knight Hero||Kills: 0||Deaths: 0||Age: 122||Hours: 12||Tue Jan  6 13:35:59 2009

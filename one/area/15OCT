@@ -1,0 +1,21 @@
+
+*** Beginning RIFTSHADOW MUD server ***
+Creating persistent SQL connection...
+Loading options and greeting screen...
+Loading class and race data...
+Initializing host sockets...
+Initialize random number generator...
+Setting time, weather, and berus/calabren pos...
+Assigning gsns and psns to skills and spells...
+Reading the race info...
+Sorting area list..
+Loading area files..
+Mon Oct 15 13:29:17 2007 :: Loading area files now...
+Starting player file parsing..
+Loading object counts off players now...
+Object Limits loaded
+Cabal Limits loaded
+Exits fixed
+Adjacent areas found
+mysql_real_connect() failed
+Error 1045 (Access denied for user 'rift'@'localhost' (using password: YES))

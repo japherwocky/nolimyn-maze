@@ -1,0 +1,53 @@
+<area id="!login" title="LOGIN HERE">
+
+<room id="login" title="Welcome, Stranger.">
+    <descrip>
+Who might you be?
+
+(NEW makes a new player)
+    </descrip>
+    <exit dir="help" to="help">You don't see that here.</exit>
+     <!-- <exit dir="dangeroom" to="1" area="dangeroom">Oh yuck, it's the internet</exit> -->
+    <func trigger="NEW" fn="newplayer" params="" />
+</room>
+
+<room id="help" title="I'm confused already!">
+    <descrip>
+Ooph.  Didn't make it very far, did we?  OK, so typing
+'login' will take you to the login room.  You typed 'help'
+which got you here.  Typing 'look' or 'l' will show you this.
+
+Typing anything in the brackets below will take you to that room.
+    </descrip>
+    <exit dir="login" to="login">Login over here, OK?</exit>
+	<exit dir="test" to="testing">Uh oh</exit>
+</room>
+
+<room id="testing" title="Testing Room">
+	<descrip>
+There is a sign here, bearing only the word, "FOO".
+
+Behind the scenes, this room is an example on how to
+code functions which exist only in one room.
+	</descrip>
+	<exit dir="help" to="help">Help!</exit>
+	<func trigger="FOO" fn="foo" params="Fooberry Pie" />
+</room>
+
+<room id="new" title="FRESH MEAT?!">
+    <descrip>
+This is your PLAYER account: it represents
+you as a person.  You may roll as many
+CHARACTERS as you'd like, but having multiple
+player accounts is lame as hell.
+    </descrip>
+</room>
+
+<room id="dead" title="OH NO, YOU DIED!">
+	<descrip>
+Haha sucker, you got pwned!
+	</descrip>
+	<exit dir="rebirth" to="login">Luckily death is not persistent.</exit>
+</room>
+
+</area>

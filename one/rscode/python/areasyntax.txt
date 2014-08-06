@@ -1,0 +1,19 @@
+        fprintf(fp,"#AREA\n");
+        fprintf(fp,"%s~\n%s~\n%s~\n", pArea->file_name, pArea->name, pArea->credits);
+        fprintf(fp,"%d %d\n", pArea->low_range, pArea->high_range);
+        fprintf(fp,"%d %d\n", pArea->min_vnum, pArea->max_vnum);
+        fprintf(fp,"%s\n", area_type_table[pArea->area_type].name);
+        fprintf(fp,"%s\n", climate_table[pArea->climate].name);
+        fprintf(fp,"%s\n", bitvector_to_flag(pArea->area_flags));
+        fprintf(fp,"%d\n", pArea->security);
+        fprintf(fp,"%s~\n\n", pArea->builders);
+        temp_bit = pArea->area_flags[0] + pArea->area_flags[1];
+
+        save_mobiles( fp, pArea );
+        save_objects( fp, pArea );
+        save_rooms( fp, pArea );
+        save_resets( fp, pArea );
+        save_progs( fp, pArea );
+        save_specs( fp, pArea );
+	
+	#$
